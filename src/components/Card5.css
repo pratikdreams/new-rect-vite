@@ -1,0 +1,92 @@
+.p6{
+    color: var(--stdWhite);
+  }
+  .section5-h3{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.02px;
+  }
+.fig-div{
+    text-align: center;
+    background-color: var(--sec3bg);
+    margin: 15px;
+    padding: 20px;  
+    border-radius: 10px;
+  }
+  .fig-child{
+    background-color: var(--stdbg);
+    padding: 20px;
+    border-radius: 15px;
+  }
+ .fig-inp{
+  margin-top: 20px;
+  border: 1px solid white;
+ }
+ .fig-button{
+  margin: 20px 20px;
+  padding: 13px 13px;
+  background-color: var(--stdblue);
+  color: var(--stdWhite);
+ }
+ .figcaption h4{
+  color: var(--stdWhite);
+  font-size: larger;
+  margin: 12px;
+  text-align: start;
+ }
+ .figcaption div span img{
+  width: 20px;
+  
+ }
+ .div-last{
+  background-color: var(--stdbg);
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+ }
+ .img-div{
+  text-align: start;
+  margin: 0px 10px 0px;
+ }
+ .clr-26{
+  color: var(--stdblue);
+ }
+ .img-span{
+  margin-left: 50px;
+ }
+ .tab-card , .desk-card{
+  display: none;
+ }
+ .la-div{
+   display: flex;
+   justify-content: center;
+ }
+
+ .lbtn{
+    color: white;
+    border: 1px solid grey;
+    padding: 12px 15px;
+    border-radius: 20px;
+ }
+
+ @media (min-width: 768px) {
+    
+ }
+ @media (min-width: 992px) {
+    .card-parent{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+      }
+      
+      .card-child{
+        width: 23%;
+      }
+      .desk-card{
+        display: block;
+      }
+    
+ }

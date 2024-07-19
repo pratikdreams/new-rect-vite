@@ -1,0 +1,72 @@
+.ourc{
+    display: none;
+}
+
+@media (min-width:768px) {
+    .ourc{
+        display: none;
+    }
+}
+@media (min-width:992px) {
+    .ourc{
+        display: block;
+    }
+
+.mainsection {
+    background: #111325;
+    color: #ffffff ;
+    font-family: "Inter", sans-serif;
+    padding: 20px;
+    max-width: 671px;
+    border-radius: 15px;
+}
+
+.main-div {
+    display: flex;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+.sub {
+    padding: 10px 21px;
+    cursor: pointer;
+}
+.sub a {
+color: #fff;
+}
+
+.aa{
+    background: #171c3a;
+    border-radius: 8px;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.second-div {
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.sub-div{
+    display: flex;
+}
+span{
+    color: #d9d9d9;
+}
+.dd {
+    margin-left: 46px;
+    padding-left: 46px;
+}
+.gg {
+    background: #4da66e;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    margin-right: 10px;
+}
+}

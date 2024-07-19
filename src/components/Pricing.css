@@ -1,0 +1,138 @@
+.pricingsec4 {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--stdWhite);
+  }
+  
+  .pricingh1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .pricingp {
+    color: var(--stdgrey);
+    margin-bottom: 40px;
+  }
+  
+  .pc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #0d0f21;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 270px;
+    text-align: left;
+  }
+  
+  
+  .rs {
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .rs span {
+    font-size: 13px;
+    font-weight: normal;
+  }
+  
+  .mainp {
+    font-size: 13px;
+    color: #94a3b8;
+  }
+
+  .phr{
+    border: 1px solid #9b9ca1;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .lia{
+    color: var(--stdWhite);
+  }
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .uli::before{
+    content: "✓";
+    color: #9b9ca1;
+    margin-right: 10px;
+    
+  }
+  .uli-span{
+    color: #9b9ca1;
+  }
+  
+  .lia::before {
+    content: "✓";
+    color:var(--stdWhite);
+    margin-right: 10px;
+  }
+  
+  .sub {
+    display: flex;
+    color: var(--stdblue);
+    border: 1px solid var(--stdblue);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.sub-img{
+    padding-left: 10px;
+    padding-top: 1px;
+}
+  
+  .seep {
+    display: inline-block;
+    margin-top: 40px;
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  .seep-img{
+    width: 10px;
+  }
+
+  @media (min-width:768px) {
+    .card {
+        width: 287px;
+    }
+    .section5 {
+      max-width: 700px;
+      margin: 0 auto 40px;
+  
+    }
+    .section5-div {
+      flex-direction: row;
+    }
+    
+    .fea1 , .fea2 {
+      max-width:319px;
+    }
+    .mbc{
+      padding-left: 43px;
+  }
+  }
+  @media (min-width:992px) {
+    .pricingh1 {
+        font-size: 36px;
+      }
+      .pricingp {
+        margin: 0 267px 40px;
+    }
+  }

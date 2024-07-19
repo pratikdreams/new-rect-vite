@@ -1,0 +1,169 @@
+
+footer {
+    background-color: #1a1a2e;
+    color: var(--stdWhite);
+    padding: 20px;
+  }
+  
+  .foot-b {
+    margin-bottom: 30px;
+  
+  }
+  .fhr{
+    border-bottom: 2px solid var(--stdgrey);
+   
+  }
+  
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .f-img {
+    width: 140px;
+    margin-right: 10px;
+  }
+  
+  .foot-b p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: var(--stdgrey);
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .i-footer {
+    font-size: 20px;
+    color: var(--stdWhite);
+    cursor: pointer;
+  }
+  .i-footer:hover{
+    color: var(--stdblue);
+  }
+  
+  .footer-l {
+    margin-bottom: 30px;
+    margin-top: 25px;
+  
+  }
+  
+  .footer-l h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-l ul {
+    list-style-type: none;
+    color: var(--stdgrey);
+    padding: 0;
+  }
+  
+  .footer-l li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .hire {
+    background-color: #2a2a3e;
+    background: linear-gradient(to bottom, #12232A 0%, #111426 100%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    
+  }
+  
+  .hire h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .hire button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .hire p {
+    font-size: 14px;
+  }
+  
+  .copyright {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .ssl {
+    margin-top: 15px;
+  }
+  .ssl-img1{
+    width:15px;
+  }
+  
+
+@media (min-width: 768px) {
+    .footer-l {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .footer-l > div {
+        width: 30%;
+      }
+      
+      .ssl-img2{
+      width: 560px;
+      }
+      
+      .tab-card{
+        display: block;
+      }
+}
+@media (min-width: 992px) {
+    .logo {
+        margin-top: 15px;
+      }
+      footer {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          padding: 40px;
+      }
+      
+      .foot-b {
+          width: 25%;
+      }
+      
+      .footer-l {
+          width: 50%;
+          display: flex;
+          justify-content: space-between;
+      }
+      
+      .hire {
+          width: 20%;
+      }
+      
+      
+      
+      .copyright {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 30px;
+          border-top: 2px solid var(--stdgrey);
+          padding-top: 10px;
+      }
+      
+      
+}

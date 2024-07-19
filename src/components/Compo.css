@@ -1,0 +1,355 @@
+
+
+.container-p {
+    padding: 20px;
+    display: block;
+}
+
+.header-pr {
+    text-align: center;
+}
+
+.com-p{
+    color: grey;
+}
+
+.header-pr h1 {
+    margin: 10px 0;
+}
+
+.membership {
+    text-align: center;
+}
+
+.con-btn{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.free{
+        border: 1px solid grey;
+        padding: 0 5px;
+        border-radius: 7px;
+        background-color: #111325;
+    }
+    .membership-info p{
+        text-align: start;
+    }
+.get-access{
+    
+        border: 1px solid green;
+        padding: 13px;
+        color: green;
+        border-radius: 23px;
+        background-color: transparent;
+        display: block;
+    }
+
+ .premium {
+    background-color: #4A90E2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    background-color: #111325;
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.membership-info {
+    background-color: #111325;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 10px 0;
+    padding: 10px;
+}
+.line-p{
+    border-bottom: 1px solid grey;
+}
+
+.abcd{
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #111325;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.content-box {
+    background:linear-gradient(to bottom, #060819 0%, #111224 50%, #05061A 100%);
+    border-radius: 5px;
+    height: 170px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;   
+         justify-content: center;
+    
+}
+
+.menu-text {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.icons-p{
+
+        display: flex;
+        justify-content: space-between;
+        background-color: #090b1d;
+        padding: 0 15px;
+        border-radius: 7px;
+        align-items: center;
+}
+.card{
+    margin-top: 12px;
+}
+.sub-pp{
+    color: green;
+    font-size: 18px;
+}
+.sunflo{
+    width: 25px;
+    height: 23px;
+}
+.main-con-sec{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .container-p {
+        display: block;
+    }
+.main-con-sec{
+    display: none;
+}
+/*  */
+
+    
+}
+
+@media (min-width: 992px) {
+    .container-p {
+        display: none;
+    }
+    /*  */
+    .cont-sec{
+        width: 480px;
+    }
+.main-con-sec{
+    display: block;
+    display: flex;
+}
+.sidebar {
+    width: 80px;
+    background-color: #1a1a2e;
+    display: flex;
+        width: 80px;
+        background-color: #1a1a2e;
+        justify-content: end;
+}
+
+    .cont-sec{
+        display: flex;
+        width: 370px;
+        height: 720px;
+    }
+
+    .side-ul{
+        margin-top: 53px;
+    }
+    
+    .menu-item {
+        list-style: none;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .icon img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .main-content {
+        padding-left: 80px;
+        flex-grow: 1;
+        padding: 20px;
+        background-color: #161625;
+        color: #fff;
+    }
+    
+    .core-c {
+        margin-top: 0;
+        font-size: 22px;
+    }
+    
+    .components-list {
+        list-style: none;
+     
+        padding: 0;
+    }
+    
+    .component-item {
+        list-style-type: disc;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px solid #333;
+    }
+    
+    .count {
+        background-color: #333;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconi{
+        width: 65px;
+        height: 63px;
+    }
+
+/*  */
+.main-h{
+    text-align: end;
+  }
+  
+  .main-s {
+    flex-grow: 1;
+    padding: 50px;
+  }
+  
+  
+  
+  .se-bar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 20px;
+  }
+  
+  .se-bar input {
+    width: 284px;
+    background-color: #1e293b;
+    border: none;
+    padding: 16.4px;
+    border-radius: 5px 0 0 5px;
+    color: white;
+  }
+  
+  .sebtn {
+    background-color: #1e293b;
+    border: none;
+    padding: 9px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .toggle-buttons button {
+    background-color: #334155;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .toggle-buttons .free {
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .toggle-buttons .premium {
+    border-radius: 0 5px 5px 0;
+    background-color: #3b82f6;
+  }
+  .mid-div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--stdWhite);
+    padding-bottom: 50px;
+  }
+  .mid-div h1{
+    color: var(--stdWhite);
+    font-size: 30px;
+    margin-top: 25px;
+    
+  }
+  .mid-div p:last-child{
+    color: var(--stdWhite);
+    margin-top: 70px;
+  }
+  
+  .promo-box {
+    border: 1px solid #1e293b;
+    padding: 45px;
+    border-radius: 8px;
+    margin-top: 20px;
+   
+  
+  }
+  .promo-box p {
+    color: var(--stdWhite);
+    font-size: 20px;
+  }
+  
+  .get-access {
+    background-color: #22c55e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .component-grid {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  
+  .component {
+    background-color: #1e293b;
+    width: 300px;
+    height: 150px;
+    border-radius:8px;
+  }
+  
+  
+    .main-con-sec{
+        display: flex;
+    }
+
+    .content-box1{
+            background:linear-gradient(to bottom, #060819 0%, #111224 50%, #05061A 100%);
+            border-radius: 5px;
+            height: 170px;
+            display: flex;
+            align-items: center;   
+                 justify-content: center;
+                 width: 220px;
+            
+    }
+    .component-grid1 {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+      }
+      .hrhr{
+        border-bottom: 1px solid grey;
+      }
+
+  
+}
+
+
