@@ -7,10 +7,6 @@ import Contactpage from './pages/Contactpage'
 import Pricingpage from './pages/Pricingpage'
 import Blogpage from './pages/Blogpage'
 
-
-
-
-
 export default function App() {
   return (
     <div>
@@ -23,9 +19,6 @@ export default function App() {
       <Route path='/Contactpage' element={<Contactpage/>} />
       <Route path='/e' element={<Pricingpage/>} />
       <Route path='/Blogpage' element={<Blogpage/>} />
-      
-     
-
     </Routes>
    </BrowserRouter>
   

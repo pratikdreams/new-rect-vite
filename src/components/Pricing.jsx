@@ -6,7 +6,7 @@ export default function Pricing() {
   return (
     <div>
        <section className="pricingsec4">
-        <h1 className="pricingh1">Pricing</h1>
+        <h1 className="pricingh1 text-light">Pricing</h1>
         <p className="pricingp"> Build your website with confidence, knowing that our flexible pricing plans are designing to meet your unique needs and budget</p>
         <div className="pc">
           <div className="card">
