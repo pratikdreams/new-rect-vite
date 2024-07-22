@@ -1,5 +1,6 @@
 .p6{
     color: var(--stdWhite);
+    margin-bottom: 4px;
   }
   .section5-h3{
     text-align: center;
@@ -29,17 +30,23 @@
   padding: 13px 13px;
   background-color: var(--stdblue);
   color: var(--stdWhite);
+    border-radius: 8px;
+
  }
+ .card5-img1 , .card5-img3{
+  width: 23px;
+ }
+ .card5-img2{
+  width: 32px;
+ }
+ 
  .figcaption h4{
   color: var(--stdWhite);
   font-size: larger;
   margin: 12px;
   text-align: start;
  }
- .figcaption div span img{
-  width: 20px;
-  
- }
+ 
  .div-last{
   background-color: var(--stdbg);
   padding: 5px;

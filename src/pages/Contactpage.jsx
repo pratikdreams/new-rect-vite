@@ -1,14 +1,14 @@
 import React from 'react'
+import Contact from '../components/Contact'
 import Nav from '../components/Nav'
-import Compo from '../components/Compo'
 import Footer from '../components/Footer'
 
-export default function Componentspage() {
+export default function Contactpage() {
   return (
     <div>
-    <Nav/>
-    <Compo/>
-    <Footer/>
+      <Nav/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }

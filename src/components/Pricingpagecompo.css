@@ -1,0 +1,295 @@
+.pricing-section {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    display: block;
+    
+}
+
+.pricing-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.psh1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--stdWhite);
+}
+
+.pricing-container > p {
+    text-align: center;
+    color: var(--stdgrey);
+    margin-bottom: 40px;
+}
+
+.pricing-column h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.price span {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.fea-t {
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.f-r {
+    display: flex;
+    border-bottom: 1px solid #252738;
+}
+
+.f-r:last-child {
+    border-bottom: none;
+}
+
+.f-r span {
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-r .f-name {
+    flex: 2;
+    justify-content: flex-start;
+    background-color: #0f0f24;
+}
+
+.right {
+    color: #38b681;
+}
+
+.c-btnn{
+border: 1px solid grey;
+color: white;
+padding: 10px 13px;
+border-radius: 18px;
+transition: transform 0.3s ease;
+}
+.c-btnn:hover{
+  transform: scale(1.1);
+}
+.c-btnn2:hover{
+  transform: scale(1.1);
+}
+.c-btnn2{
+color: white;
+background-color: var(--stdblue);
+padding: 10px 13px;
+border-radius: 18px;
+transition: transform 0.3s ease;
+}
+/*  */
+.main-container-p {
+color: var(--stdWhite);
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px;
+margin: 0;
+}
+
+.pricing-all-action, .last-sec{
+width: 100%;
+max-width: 1000px;
+margin-bottom: 50px;
+border-radius: 15px;
+padding: 40px;
+box-sizing: border-box;
+}
+
+.pricing-all-action {
+background-color: #4d5ef6;
+text-align: center;
+}
+
+.pricing-all-action h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.pricing-sec-child1{
+display: flex;
+justify-content: center;
+gap: 20px;
+margin: 20px 0;
+}
+
+.pricing-child2 {
+display: flex;
+align-items: center;
+}
+
+.pricing-child2::before {
+content: "✓";
+background-color: white;
+color: #4d5ef6;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+margin-right: 10px;
+}
+
+.cu-button {
+background-color: white;
+color: #4d5ef6;
+border: none;
+padding: 10px 20px;
+border-radius: 20px;
+font-weight: bold;
+cursor: pointer;
+transition: transform 0.3s ease;
+}
+.cu-button:hover {
+  transform: scale(1.1);
+}
+
+
+.last-sec{
+background: linear-gradient(to bottom, #101224 0%, #0D0F21 100%);
+border: 1px solid #292B3B;
+}
+
+.last-sec h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.faq-description {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.faq-grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+}
+
+.four-i {
+border: 1px solid var(--stdgrey);
+padding: 20px;
+border-radius: 10px;
+}
+
+.for-p {
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+
+.pricing-section{
+    display: none;
+}
+    .main-container-p {
+      padding: 30px;
+    }
+  
+    .pricing-all-action, .last-sec {
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+  
+    .pricing-all-action h2 {
+      font-size: 20px;
+    }
+  
+    .pricing-sec-child1 {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .cu-button {
+      padding: 8px 16px;
+      border-radius: 16px;
+    }
+  
+    .last-sec h2 {
+      font-size: 22px;
+    }
+  
+    .faq-description {
+      font-size: 14px;
+    }
+  
+    .faq-grid {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  
+    .four-i {
+      padding: 15px;
+    }
+  
+    .for-p {
+      font-size: 16px;
+    }
+  }
+  
+  /* Mobile View */
+  @media (max-width: 320px) {
+    .pricing-section{
+        display: none;
+    }
+    .main-container-p {
+      padding: 20px;
+    }
+  
+    .pricing-all-action, .last-sec {
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .pricing-all-action h2 {
+      font-size: 18px;
+    }
+  
+    .pricing-sec-child1 {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .cu-button {
+      padding: 6px 12px;
+      border-radius: 12px;
+    }
+  
+    .last-sec h2 {
+      font-size: 18px;
+    }
+  
+    .faq-description {
+      font-size: 12px;
+    }
+  
+    .faq-grid {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  
+    .four-i {
+      padding: 10px;
+    }
+  
+    .for-p {
+      font-size: 14px;
+    }
+  }
+  

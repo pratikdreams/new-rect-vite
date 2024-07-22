@@ -31,7 +31,9 @@
     max-width: 270px;
     text-align: left;
   }
-  
+  .card h2{
+    font-size: 23px;
+  }
   
   .rs {
     color: white;
@@ -93,6 +95,12 @@
     cursor: pointer;
     margin: 0 auto;
 }
+ .sub:hover {
+  background-color: var(--stdblue);
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
 .sub-img{
     padding-left: 10px;
     padding-top: 1px;
@@ -131,6 +139,7 @@
   @media (min-width:992px) {
     .pricingh1 {
         font-size: 36px;
+        margin-top: 60px;
       }
       .pricingp {
         margin: 0 267px 40px;

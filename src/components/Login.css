@@ -1,0 +1,85 @@
+
+.login-mmj {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} 
+.login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    width: 50vh;
+}
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    color: #666;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #c9cace;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.forgot-password {
+    text-align: left;
+    margin-bottom: 15px;
+}
+.forgot-password a {
+    color: #4b6bfb;
+    text-decoration: none;
+    font-size: 14px;
+}
+.continue-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4b6bfb;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.signup-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.signup-link a {
+    color: #4c6ef5;
+    text-decoration: none;
+}
+.or{
+    text-align: center;
+    margin: 20px 0;
+    color: #000000;
+}
+.social-login {
+    display: flex;
+    flex-direction: column;
+}
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #c9cace;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.social-btn img {
+    width: 20px;
+    margin-right: 10px;
+}

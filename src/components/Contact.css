@@ -1,0 +1,167 @@
+
+.ccf {
+    line-height: 1.6;
+}
+
+.containercc {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.subtitlecc {
+    text-align: center;
+    font-size: 18px;
+    color: #a0a0a0;
+    margin-bottom: 30px;
+}
+
+.contact-infocc {
+    margin-bottom: 30px;
+}
+
+.subcc{
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-detailcc {
+    padding-left: 15px;
+}
+
+.email-section, .office-section {
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: #111325;
+    border-radius: 15px;
+}
+
+.contact-form {
+    background-color: #151528;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-labelcc {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.form-inputcc, .form-textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #1d1e2f;
+    background-color: #05071a;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.form-textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: #5454d4;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #1d1e2f;
+    background-color: #05071a;
+}
+
+@media screen and (min-width: 768px) {
+    .main-heading {
+        font-size: 28px;
+    }
+
+    .subtitlecc {
+        font-size: 16px;
+    }
+    .form-ll{
+        width: 38vh;
+}
+
+    .contact-infocc {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .email-section, .office-section {
+        width: 48%;
+    }
+
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .form-group-half {
+        width: 48%;
+    }
+
+    .form-group-full {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .containercc {
+        padding: 40px;
+    }
+
+    .main-heading {
+        font-size: 32px;
+    }
+    .form-ll{
+        width: 52vh;
+    }
+
+    .subtitlecc {
+        font-size: 18px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-infocc {
+        margin-bottom: 40px;
+    }
+
+    .contact-form {
+        padding: 30px;
+    }
+
+    .form-group {
+        margin-bottom: 30px;
+    }
+
+    .submit-button {
+        width: auto;
+    }
+}

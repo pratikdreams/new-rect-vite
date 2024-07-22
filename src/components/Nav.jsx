@@ -1,68 +1,134 @@
-import React from 'react';
-import './Nav.css';
+import React from "react";
+import "./Nav.css";
 import Image from "../assets/nav-and-cta/Group 46.png";
 import Image1 from "../assets/nav-and-cta/Arrow 1.png";
-import { Navigate } from 'react-router-dom';
+import BtnApp from "./btn";
+import { Link, Navigate, NavLink } from "react-router-dom";
+
 
 export default function Nav() {
   return (
+
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light">
-        <a className="navbar-brand" href="#">
+      {/* mobile */}
+      <section className="mobile-section">
+              <nav className="navbar navbar-light mobile">
+      <NavLink to="/" ><a className="navbar-brand" href="#">
           <img src={Image} className="mainlogo" alt="Logo" />
-        </a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        </a></NavLink>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav mr-auto">
+          <ul className="navbar-nav mr-auto m-2 ">
+          <button className="butdrop">Sign In or Registration  </button> 
+           
+                 
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a
+                className="nav-link dropdown-toggle "
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
                 Our Products
               </a>
-              
-              <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">MERN STACK</a>
-                <a className="dropdown-item" href="#">Headless Wordpress</a>
-                <a className="dropdown-item" href="#">Headless Strapi</a>
-                <a className="dropdown-item" href="#">Node.js Templates</a>
+
+              <div
+                className="dropdown-menu bg-dark"
+                aria-labelledby="navbarDropdown"
+              >
+                <a className="dropdown-item" href="#">
+                  MERN STACK
+                </a>
+                <a className="dropdown-item" href="#">
+                  Headless Wordpress
+                </a>
+                <a className="dropdown-item" href="#">
+                  Headless Strapi
+                </a>
+                <a className="dropdown-item" href="#">
+                  Node.js Templates
+                </a>
               </div>
             </li>
+
+
             <li className="nav-item">
-              <a className="nav-link" href="#">Components</a>
+            <NavLink to="/c" > <a className="nav-link" href="#">
+                Components
+              </a></NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Pricing</a>
+            <NavLink to="/e" >  <a className="nav-link" href="#">
+                Pricing
+              </a> </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Blog</a>
+            <NavLink to="/Blogpage" >  <a className="nav-link" href="#">
+                Blog
+              </a></NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact Us</a>
+            <NavLink to="/Contactpage" >  <a className="nav-link" href="#">
+                Contact us
+              </a></NavLink>
             </li>
+            
           </ul>
-          <button className="btn sbtn">Sign in <img src={Image1} className="arrow" alt="Arrow" /></button>
+           {/* <a className="btn sbtn">
+            <NavLink to="/loginpage" > Sign in <img src={Image1} className="arrow" alt="Arrow" /></NavLink>
+          </a>  */}
         </div>
       </nav>
-      <hr className='mh' />
+      </section>
 
-      <nav className="nav">
-          <div>
-            <img src={Image} className="mainlogo" alt="" />
-          </div>
-          <ul className="navul">
-            <li><a href>Our Products <i className="fas fa-chevron-down" /></a></li>
-            <li><a href>Components</a></li>
-            <li><a href>Pricing</a></li>
-            <li><a href>Blog</a></li>
-            <li><a href>Contact Us</a></li>
-          </ul>
-          <button className="sbtn">Sign in <img src={Image1} className="arrow" alt="" /></button>
-        </nav>
-       
+      <hr className="mh" />
+      {/* desktop */}
+      <section className="desktop-section">
+      <nav className="nav desk">
+        <div>
+         <NavLink to="/" > <img src={Image} className="mainlogo" alt="" /></NavLink>
+        </div>
+        <ul className="navul">
+          <li>
+            <a href>
+             <BtnApp/> 
+          
+            </a>
+          </li>
+          <li>
+            <a href>
+              <NavLink to="/c">Components</NavLink>
+            </a>
+          </li>
+          <li>
+          <NavLink to="/e" ><a href>Pricing</a> </NavLink>
+          </li>
+          <li>
+          <NavLink to="/Blogpage" ><a href>Blog</a></NavLink>
+          </li>
+           <li>
+           <a href> <NavLink to="/Contactpage">Contact Us</NavLink> </a>
+          </li> 
+        </ul>
+        <NavLink to="/l" ><button className="sbtn">
+         Sign in <img src={Image1} className="arrow" alt="" />
+        </button> </NavLink>
+      </nav>
+      </section>
+      
     </div>
   );
 }
-
-
-

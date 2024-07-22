@@ -6,6 +6,12 @@ import Image3 from "../assets/compo/image 90.png"
 import Image4 from "../assets/compo/image 91.png"
 import Image5 from "../assets/compo/image 92.png"
 import Image6 from "../assets/compo/Group 108.png"
+import Image7 from "../assets/compo/Group 277.png"
+import Image8 from "../assets/compo/Group 273.png"
+import Image9 from "../assets/compo/Group 270.png"
+
+
+
 
 
 
@@ -14,171 +20,171 @@ export default function Compo() {
      <div>
     <div className="container-p">
       <div className="header-pr">
-        <div className="icon"><img src="./Group 270.png" alt="" /></div>
-        <h1>Core Components</h1>
+        <div className="icon"><img src={Image9} alt="" /></div>
+        <h1 className='text-light'>Core Components</h1>
         <p className="com-p">Core Components</p>
       </div>
       <div className="membership">
         <div className="con-btn">
-          <p className="free">Free
+          <p className="free text-light">Free
             <button className="premium">Premium</button></p>
         </div>
         <input type="text" placeholder="Search" />
-        <div className="membership-info">
+        <div className="membership-info text-light">
           <p>Save 20% on our entire catalogue with a membership</p>
           <button className="get-access">Get All Access →</button>
         </div>
       </div>
       <div className="line-p" />
-      <div className="abcd">
+      <div className="abcd ">
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Menu</div>
+          <div><img src={Image8} className='mtimg' alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Alert</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Badges</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Breadcrumbs</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Cart</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Input Groups</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Textarea</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Input</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Toggle</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Dropdown</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Menu</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Menu</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Menu</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Menu</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Toggle</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Indicator</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
         <div className="card">
-          <div className="content-box"><img src="./Group 277.png" alt="" /></div>
-          <div className="menu-text">Menu</div>
-          <div><img src="./Group 273.png" alt="" /></div>
+          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="menu-text text-light">Menu</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
             <img src={Image} className="sunflo" alt="" />
@@ -188,7 +194,7 @@ export default function Compo() {
     </div>
     <section className="main-con-sec">
       <section className="cont-sec">
-        <div className="sidebar">
+        <div className="sidebar1">
           <ul className="side-ul">
             <li className="menu-item">
               <div className="iconi">
@@ -254,15 +260,15 @@ export default function Compo() {
         <hr className="hrhr" />
         <div className="component-grid1">
           <div className="card">
-            <div className="content-box1"><img src="./Group 277.png" alt="" /></div>             
+            <div className="content-box1"><img src={Image7} className='cbimg' alt="" /></div>             
           </div>
           <div className="component-grid1">
             <div className="card">
-              <div className="content-box1"><img src="./Group 277.png" alt="" /></div>             
+              <div className="content-box1"><img src={Image7} className='cbimg' alt="" /></div>             
             </div>
             <div className="component-grid1">
               <div className="card">
-                <div className="content-box1"><img src="./Group 277.png" alt="" /></div>             
+                <div className="content-box1"><img src={Image7} className='cbimg' alt="" /></div>             
               </div>
             </div>
           </div></div></section>

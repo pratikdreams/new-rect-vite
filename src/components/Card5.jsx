@@ -23,11 +23,11 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} alt="img" /></span>
-                  <span><img src={Image2} className alt="img" /></span>
+                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
+                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} alt="img" /></span> </p>       
+                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
                 </div>
               </figcaption>
             </figure> 
@@ -45,11 +45,11 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} alt="img" /></span>
-                  <span><img src={Image2} alt="img" /></span>
+                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
+                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} alt="img" /></span> </p>       
+                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
                 </div>
               </figcaption>
             </figure> 
@@ -67,11 +67,11 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} alt="img" /></span>
-                  <span><img src={Image2} alt="img" /></span>
+                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
+                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} alt="img" /></span> </p>       
+                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
                 </div>
               </figcaption>
             </figure> 
@@ -89,11 +89,11 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} alt="img" /></span>
-                  <span><img src={Image2} alt="img" /></span>
+                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
+                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} alt="img" /></span> </p>       
+                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
                 </div>
               </figcaption>
             </figure> 
@@ -111,11 +111,11 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} alt="img" /></span>
-                  <span><img src={Image2} alt="img" /></span>
+                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
+                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} alt="img" /></span> </p>       
+                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
                 </div>
               </figcaption>
             </figure> 
@@ -133,11 +133,11 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} alt="img" /></span>
-                  <span><img src={Image2} alt="img" /></span>
+                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
+                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} alt="img" /></span> </p>       
+                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
                 </div>
               </figcaption>
             </figure> 
@@ -155,11 +155,11 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} alt="img" /></span>
-                  <span><img src={Image2} alt="img" /></span>
+                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
+                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} alt="img" /></span> </p>       
+                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
                 </div>
               </figcaption>
             </figure> 
@@ -177,11 +177,11 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} alt="img" /></span>
-                  <span><img src={Image2} alt="img" /></span>
+                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
+                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} alt="img" /></span> </p>       
+                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
                 </div>
               </figcaption>
             </figure> 
@@ -199,11 +199,11 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} alt="img" /></span>
-                  <span><img src={Image2} alt="img" /></span>
+                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
+                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} alt="img" /></span> </p>       
+                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
                 </div>
               </figcaption>
             </figure> 
@@ -221,11 +221,11 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} alt="img" /></span>
-                  <span><img src={Image2} alt="img" /></span>
+                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
+                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} alt="img" /></span> </p>       
+                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
                 </div>
               </figcaption>
             </figure> 

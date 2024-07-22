@@ -1,25 +1,130 @@
 
+
+/*  */
+.mobile-section {
+  display: block;
+}
+
+.desktop-section {
+  display: none;
+}
+
+.navbar{
+    margin: 0 11px;
+}
+
+.butdrop {
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #3f59d4;
+  margin-top: 18px;
+}
 .navbar {
+  padding: 15px 30px;
+  background-color: var(--stdbg);
+}
+
+.mainlogo {
+  width: 143.02px;
+  height: 36.78px;
+}
+
+.nav-link,
+.dropdown-item {
+  color: var(--stdWhite) !important;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+  color: var(--stdblue) !important;
+}
+
+.sbtn {
+  padding: 10px 20px;
+  background-color: var(--stdblue);
+  color: var(--stdWhite);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.sbtn:hover {
+  background-color: #356bb3;
+}
+
+.arrow {
+  width: 13px;
+  height: 10px;
+}
+
+.mh {
+  border-top: 1px solid #3e3f4e;
+}
+
+
+.navbar-toggler {
+  border-color: transparent;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../assets/nav-and-cta/bars-solid.svg");
+  filter: invert(1);
+}
+
+@media (min-width: 768px) {
+  .mobile-section {
+    display: block;
+  }
+  .desktop-section {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobile-section {
+    display: none;
+  }
+  .desktop-section {
+    display: block;
+  }
+  .mh{
+    display: none;
+  }
+
+  .navul li a {
+    color: var(--stdWhite);
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 15px 30px;
     background-color: var(--stdbg);
+    border-bottom: 1px solid #3e3f4e;
   }
-  
+
   .mainlogo {
-    width: 143.02px;
-    height: 36.78px;
+    width: 164.93px;
+    height: 42.25px;
   }
-  
-  .nav-link,
-  .dropdown-item {
-    color: var(--stdWhite) !important;
+
+  .navul {
+    color: var(--stdWhite);
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    cursor: pointer;
   }
-  
-  .nav-link:hover,
-  .dropdown-item:hover {
-    color: var(--stdblue) !important;
+
+  .navul li:hover {
+    color: var(--stdblue);
   }
-  
+
   .sbtn {
+    display: block;
     padding: 10px 20px;
     background-color: var(--stdblue);
     color: var(--stdWhite);
@@ -27,130 +132,13 @@
     border-radius: 20px;
     cursor: pointer;
   }
-  
+
   .sbtn:hover {
     background-color: #356bb3;
   }
-  
+
   .arrow {
     width: 13px;
     height: 10px;
   }
-  
-  .mh {
-    border-top: 1px solid #3e3f4e;
-  }
-  
- 
-  .navbar-toggler {
-    border-color: transparent;
-  }
-  
-  .navbar-toggler-icon {
-    background-image: url("../assets/nav-and-cta/bars-solid.svg");
-  }
- 
-  @media (min-width: 768px) {
-    
-  }
-  @media (min-width: 992px) {
-.navbar{
-    display: none;
-   
 }
-hr{
-    display: none;
-   
-}  
-  }
-
-
-  .nav {
-    display: none;
-}
-
-.mainlogo {
-    width: 143.02px;
-    height: 36.78px;
-}
-
-.navul {
-    display: none;
-}
-
-.navul.active {
-    display: flex;
-}
-
-.navul li a {
-    color: var(--stdWhite);
-}
-
-.sbtn {
-    display: none;
-}
-
-.cross {
-    display: block;
-    color: var(--stdWhite);
-    cursor: pointer;
-}
-
-.mh {
-    border-top: 1px solid #3e3f4e;
-}
-
-@media (min-width: 992px) {
-    .nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px 30px;
-        background-color: var(--stdbg);
-        border-bottom: 1px solid #3e3f4e;
-    }
-
-    .mainlogo {
-        width: 164.93px;
-        height: 42.25px;
-    }
-
-    .navul {
-        color: var(--stdWhite);
-        display: flex;
-        gap: 20px;
-        margin: 0 auto;
-        justify-content: center;
-        cursor: pointer;
-    }
-
-    .navul li:hover {
-        color: var(--stdblue);
-    }
-
-    .sbtn {
-        display: block;
-        padding: 10px 20px;
-        background-color: var(--stdblue);
-        color: var(--stdWhite);
-        border: none;
-        border-radius: 20px;
-        cursor: pointer;
-    }
-
-    .sbtn:hover {
-        background-color: #356bb3;
-    }
-
-    .arrow {
-        width: 13px;
-        height: 10px;
-    }
-
-    .cross {
-        display: none;
-    }
-    
-}
-
-  

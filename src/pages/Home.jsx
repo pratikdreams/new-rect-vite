@@ -13,7 +13,7 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
     <div>
-       {/* <Nav/> */}
+       <Nav/>
      <Cta/>
      <Card5/>
      <Thems/>
@@ -21,7 +21,7 @@ export default function Home() {
      <Whychooseus/>
      <Faq/>
      <Whycard/>
-     {/* <Footer/> */}
+     <Footer/>
     </div>
   )
 }

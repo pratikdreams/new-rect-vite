@@ -1,14 +1,14 @@
 import React from 'react'
 import Nav from '../components/Nav'
-import Compo from '../components/Compo'
 import Footer from '../components/Footer'
+import Blogcom from '../components/Blogcom'
 
-export default function Componentspage() {
+export default function Blogpage() {
   return (
     <div>
-    <Nav/>
-    <Compo/>
-    <Footer/>
+      <Nav/> 
+      <Blogcom/>
+      <Footer/>
     </div>
   )
 }
