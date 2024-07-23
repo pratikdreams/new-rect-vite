@@ -112,6 +112,9 @@
     color: #3b82f6;
     text-decoration: none;
   }
+  .seep:hover{
+    color: #470CA0;
+  }
   .seep-img{
     width: 10px;
   }

@@ -82,6 +82,10 @@ footer {
     margin-top: 25px;
     
   }
+  .hire:hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
   
   .hire h3 {
     font-size: 18px;
@@ -132,6 +136,7 @@ footer {
       
       .ssl-img2{
       width: 560px;
+      cursor: pointer;
       }
       
       .tab-card{

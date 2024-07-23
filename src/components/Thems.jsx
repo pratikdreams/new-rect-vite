@@ -10,11 +10,12 @@ export default function Thems() {
   return (
     <div>
        <section>
+        
         <h2 className="section3-child1">Templates &amp; Headless Themes</h2>
         <p className="section3-child2">Build your dream website with our full-stack solutions and React/Next js templates with super-fast speed,scalability, and security, your website is sure to stand out.</p>
         <div className="section3-child3">
           <div className="section3-child9">
-            <div className="section3-child4">
+            <div className="section3-child4 ">
               <img className="section3-child5" src={Image1} alt="" />
               <a className="section3-child6" href="#">Headless CMS</a>
               <h3 className="section3-child7">MetaAds- Classified Ads &amp; Listing Web Application </h3>
@@ -64,6 +65,7 @@ export default function Thems() {
             </div> 
           </div> 
         </div>
+     
         <div>
           <button className="section3-child11">See Our Products <span><img className="section3-child12" src={Image7} alt="" /></span></button>
         </div>

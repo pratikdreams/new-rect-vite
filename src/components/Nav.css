@@ -134,7 +134,9 @@
   }
 
   .sbtn:hover {
-    background-color: #356bb3;
+    background-color: #470ca0;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
   .arrow {

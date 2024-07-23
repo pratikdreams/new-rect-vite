@@ -11,7 +11,7 @@ export default function Whycard() {
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum Dummy Text</p>
             <form>
               <input type="email" placeholder="Enter your email" />
-              <button type="submit" className='whybutton'>Subscribe Now</button>
+              <button type="submit" className='whybutton vibrate-1'>Subscribe Now</button>
             </form>
           </section>
         </div>
