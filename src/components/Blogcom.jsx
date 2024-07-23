@@ -25,7 +25,7 @@ export default function Blogcom() {
           <p className="subtitleblog">That blog dedicated to providing regular updates, articles, and other forms of content related to web design and development.</p>
           <div className="blog-posts">
             <div className="posts">
-              <div className="post">
+              <div className="post" >
                 <img src={Image1} alt="" />
                 <div className="post-content">
                   <div className="post-info">UNCATEGORIZED</div>

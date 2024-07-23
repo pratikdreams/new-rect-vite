@@ -5,7 +5,7 @@ export default function Faq() {
   return (
     <div>
        <section className="sec6">
-        <div className="sec6-div">
+        <div className="sec6-div" data-aos="fade-left">
           <h2>Frequently Asked Questions</h2>
           <p className="sec6-p">Check out the Best full stack solution and React, Next.js Ready-Made Templates. Every templates we ensure super fast speed, scaleable and secure</p>
           <div className="sec6-main">
@@ -13,7 +13,7 @@ export default function Faq() {
             <button className="get-button">Get Ticket →</button>
           </div>
         </div>
-        <div className="sec6-div2">
+        <div className="sec6-div2" data-aos="fade-right">
           <div className="section6-sub1">
             <h3 className="section5-h3">Do you offer refunds if I am not satisfied with the products or membership?</h3>
             <p className="spara">Yes, we offer refunds within 7 days for all products and bundles, but unfortunately not for membership plans.</p>

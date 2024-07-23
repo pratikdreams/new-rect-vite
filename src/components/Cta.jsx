@@ -12,7 +12,7 @@ import Image7 from "../assets/nav-and-cta/Group 50.png"
 export default function Cta() {
   return (
     <div>
-    <section className="cta slide-in-righta">
+    <section className="cta" data-aos="fade-left">
       <div className="cc ">Here is our component solution <button className="bt"><img src={Image} className="ctaimgl" alt="" /></button></div>
       <h1 className='' >Create Beautiful Website with Our Templates and UI Components</h1>
       <p className=''>Create a stunning website that stands out with our headless CMS themes, React, Next.js templates, and UI components. Get access and start building!</p>

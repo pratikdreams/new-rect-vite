@@ -29,7 +29,7 @@ export default function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mr-auto m-2 ">
-          <button className="butdrop">Sign In or Registration  </button> 
+          <NavLink to="/l" ><button className="butdrop">Sign In or Registration  </button> </NavLink>
            
                  
             <li className="nav-item dropdown">

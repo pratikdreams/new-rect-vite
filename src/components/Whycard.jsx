@@ -5,7 +5,7 @@ export default function Whycard() {
   return (
     <div>
         <section>
-        <div className="sec7-cont">
+        <div className="sec7-cont" data-aos="zoom-in">
           <section className="main-sec-7">
             <h2 className='text-light'>Why are you waiting ?</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum Dummy Text</p>
