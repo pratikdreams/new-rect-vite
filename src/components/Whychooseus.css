@@ -54,7 +54,8 @@
     text-align: center;
   }
   .cus{
-    padding-left: 30px;
+    text-align: center;
+    /* padding-left: 30px; */
   }
 
   .section5-p{
@@ -89,6 +90,9 @@
   }
  
   @media (min-width: 992px) {
+    .fea2{
+        padding-top: 21px;
+    }
     .section5 {
         max-width: 1302px;
         margin: 100px;
@@ -97,10 +101,11 @@
         padding-top: 30px;
         font-size: 38px;
       }
-      .sec5h3 {
+      /* .sec5h3 {
         padding-left: 55px;
-      }
+      } */
       .cus{
-      padding-left: 70px;
+      /* padding-left: 70px; */
+      text-align: center;
       }  
 }

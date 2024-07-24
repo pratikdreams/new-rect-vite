@@ -31,6 +31,7 @@ export default function Faq() {
           
           </div>
         </div>
+        
       </section>
     </div>
   )

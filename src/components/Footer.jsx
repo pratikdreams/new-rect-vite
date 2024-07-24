@@ -8,7 +8,7 @@ import Image3 from "../assets/footer/image 61.png"
 export default function Footer() {
   return (
     <div>
-       <footer>
+       <footer className='footersec'>
         <div className="foot-b">
           <div className="logo">
             <img src={Image1} className="f-img" alt="" />

@@ -1,5 +1,5 @@
 
-footer {
+.footersec {
     background-color: #1a1a2e;
     color: var(--stdWhite);
     padding: 20px;
@@ -145,13 +145,13 @@ footer {
 }
 @media (min-width: 992px) {
     .logo {
-        margin-top: 15px;
+        margin-top: 18px;
       }
-      footer {
+      .footersec {
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
-          padding: 40px;
+          padding: 40px 100px;
       }
       
       .foot-b {

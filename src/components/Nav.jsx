@@ -30,7 +30,11 @@ export default function Nav() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mr-auto m-2 ">
           <NavLink to="/l" ><button className="butdrop">Sign In or Registration  </button> </NavLink>
-           
+          <li className="nav-item">
+            <NavLink to="/Home" >  <a className="nav-link" href="#">
+                Home
+              </a> </NavLink>
+            </li>
                  
             <li className="nav-item dropdown">
               <a
@@ -87,9 +91,7 @@ export default function Nav() {
             </li>
             
           </ul>
-           {/* <a className="btn sbtn">
-            <NavLink to="/loginpage" > Sign in <img src={Image1} className="arrow" alt="Arrow" /></NavLink>
-          </a>  */}
+          
         </div>
       </nav>
       </section>
@@ -102,6 +104,11 @@ export default function Nav() {
          <NavLink to="/" > <img src={Image} className="mainlogo" alt="" /></NavLink>
         </div>
         <ul className="navul">
+          <li>
+            <a href>
+              <NavLink to="/Home">Home</NavLink>
+            </a>
+          </li>
           <li>
             <a href>
              <BtnApp/> 

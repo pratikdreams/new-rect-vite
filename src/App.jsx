@@ -13,6 +13,7 @@ export default function App() {
        <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>} />
+      <Route path='/Home' element={<Home/>} />
       <Route path='/l' element={<Loginpage/>} />
       <Route path='/c' element={<Componentspage/>} />
       <Route path='/Contactpage' element={<Contactpage/>} />
