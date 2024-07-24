@@ -21,7 +21,7 @@ export default function Blogcom() {
     
        <main>
        <div className="containerblog">
-          <h1 className="blogh1">JS Template Blog</h1>
+          <h1 className="blogh1 mt-5">JS Template Blog</h1>
           <p className="subtitleblog">That blog dedicated to providing regular updates, articles, and other forms of content related to web design and development.</p>
           <div className="blog-posts">
             <div className="posts">

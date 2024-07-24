@@ -131,6 +131,7 @@ input[type="text"] {
 }
 
 @media screen and (min-width: 992px) {
+  
     .containercc {
         padding: 40px;
     }

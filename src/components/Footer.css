@@ -125,6 +125,9 @@
   
 
 @media (min-width: 768px) {
+  .footersec{
+    padding: 20px 30px;
+  }
     .footer-l {
         display: flex;
         justify-content: space-between;

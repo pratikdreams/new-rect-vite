@@ -1,13 +1,12 @@
-import React from 'react'
-import './Card5.css'
-import Image1 from "../assets/card5/html1.png"
-import Image2 from "../assets/card5/css.png"
-import Image3 from "../assets/card5/sunflower.png"
+import React from "react";
+import "./Card5.css";
+import Image1 from "../assets/card5/html1.png";
+import Image2 from "../assets/card5/css.png";
+import Image3 from "../assets/card5/sunflower.png";
 
 export default function Card5() {
   return (
     <div>
-
       <section className>
         <div className="card-parent mt-5 ">
           <div className="card-child effect-form5  ">
@@ -23,14 +22,23 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
-                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
+                  <span>
+                    <img src={Image1} className="card5-img1" alt="img" />
+                  </span>
+                  <span>
+                    <img src={Image2} className="card5-img2" alt="img" />
+                  </span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
+                  <p className="p6">
+                    <span className="clr-26">26</span> Components{" "}
+                    <span className="img-span">
+                      <img src={Image3} className="card5-img3" alt="img" />
+                    </span>{" "}
+                  </p>
                 </div>
               </figcaption>
-            </figure> 
+            </figure>
           </div>
           <div className="card-child effect-form5">
             <figure className="fig-div">
@@ -45,14 +53,23 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
-                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
+                  <span>
+                    <img src={Image1} className="card5-img1" alt="img" />
+                  </span>
+                  <span>
+                    <img src={Image2} className="card5-img2" alt="img" />
+                  </span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
+                  <p className="p6">
+                    <span className="clr-26">26</span> Components{" "}
+                    <span className="img-span">
+                      <img src={Image3} className="card5-img3" alt="img" />
+                    </span>{" "}
+                  </p>
                 </div>
               </figcaption>
-            </figure> 
+            </figure>
           </div>
           <div className="card-child effect-form5 tab-card">
             <figure className="fig-div">
@@ -67,14 +84,23 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
-                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
+                  <span>
+                    <img src={Image1} className="card5-img1" alt="img" />
+                  </span>
+                  <span>
+                    <img src={Image2} className="card5-img2" alt="img" />
+                  </span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
+                  <p className="p6">
+                    <span className="clr-26">26</span> Components{" "}
+                    <span className="img-span">
+                      <img src={Image3} className="card5-img3" alt="img" />
+                    </span>{" "}
+                  </p>
                 </div>
               </figcaption>
-            </figure> 
+            </figure>
           </div>
           <div className="card-child effect-form5 desk-card">
             <figure className="fig-div">
@@ -89,14 +115,23 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
-                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
+                  <span>
+                    <img src={Image1} className="card5-img1" alt="img" />
+                  </span>
+                  <span>
+                    <img src={Image2} className="card5-img2" alt="img" />
+                  </span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
+                  <p className="p6">
+                    <span className="clr-26">26</span> Components{" "}
+                    <span className="img-span">
+                      <img src={Image3} className="card5-img3" alt="img" />
+                    </span>{" "}
+                  </p>
                 </div>
               </figcaption>
-            </figure> 
+            </figure>
           </div>
           <div className="card-child effect-form5 desk-card">
             <figure className="fig-div">
@@ -111,14 +146,23 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
-                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
+                  <span>
+                    <img src={Image1} className="card5-img1" alt="img" />
+                  </span>
+                  <span>
+                    <img src={Image2} className="card5-img2" alt="img" />
+                  </span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
+                  <p className="p6">
+                    <span className="clr-26">26</span> Components{" "}
+                    <span className="img-span">
+                      <img src={Image3} className="card5-img3" alt="img" />
+                    </span>{" "}
+                  </p>
                 </div>
               </figcaption>
-            </figure> 
+            </figure>
           </div>
           <div className="card-child effect-form5 desk-card">
             <figure className="fig-div">
@@ -133,14 +177,23 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
-                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
+                  <span>
+                    <img src={Image1} className="card5-img1" alt="img" />
+                  </span>
+                  <span>
+                    <img src={Image2} className="card5-img2" alt="img" />
+                  </span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
+                  <p className="p6">
+                    <span className="clr-26">26</span> Components{" "}
+                    <span className="img-span">
+                      <img src={Image3} className="card5-img3" alt="img" />
+                    </span>{" "}
+                  </p>
                 </div>
               </figcaption>
-            </figure> 
+            </figure>
           </div>
           <div className="card-child effect-form5 desk-card">
             <figure className="fig-div">
@@ -155,14 +208,23 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
-                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
+                  <span>
+                    <img src={Image1} className="card5-img1" alt="img" />
+                  </span>
+                  <span>
+                    <img src={Image2} className="card5-img2" alt="img" />
+                  </span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
+                  <p className="p6">
+                    <span className="clr-26">26</span> Components{" "}
+                    <span className="img-span">
+                      <img src={Image3} className="card5-img3" alt="img" />
+                    </span>{" "}
+                  </p>
                 </div>
               </figcaption>
-            </figure> 
+            </figure>
           </div>
           <div className="card-child effect-form5 desk-card">
             <figure className="fig-div">
@@ -177,14 +239,23 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
-                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
+                  <span>
+                    <img src={Image1} className="card5-img1" alt="img" />
+                  </span>
+                  <span>
+                    <img src={Image2} className="card5-img2" alt="img" />
+                  </span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
+                  <p className="p6">
+                    <span className="clr-26">26</span> Components{" "}
+                    <span className="img-span">
+                      <img src={Image3} className="card5-img3" alt="img" />
+                    </span>{" "}
+                  </p>
                 </div>
               </figcaption>
-            </figure> 
+            </figure>
           </div>
           <div className="card-child effect-form5 desk-card">
             <figure className="fig-div">
@@ -199,14 +270,23 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
-                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
+                  <span>
+                    <img src={Image1} className="card5-img1" alt="img" />
+                  </span>
+                  <span>
+                    <img src={Image2} className="card5-img2" alt="img" />
+                  </span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
+                  <p className="p6">
+                    <span className="clr-26">26</span> Components{" "}
+                    <span className="img-span">
+                      <img src={Image3} className="card5-img3" alt="img" />
+                    </span>{" "}
+                  </p>
                 </div>
               </figcaption>
-            </figure> 
+            </figure>
           </div>
           <div className="card-child effect-form5 desk-card">
             <figure className="fig-div">
@@ -221,21 +301,29 @@ export default function Card5() {
               <figcaption className="figcaption">
                 <h4>Features</h4>
                 <div className="img-div">
-                  <span><img src={Image1} className='card5-img1' alt="img" /></span>
-                  <span><img src={Image2} className='card5-img2' alt="img" /></span>
+                  <span>
+                    <img src={Image1} className="card5-img1" alt="img" />
+                  </span>
+                  <span>
+                    <img src={Image2} className="card5-img2" alt="img" />
+                  </span>
                 </div>
                 <div className="div-last">
-                  <p className="p6"><span className="clr-26">26</span> Components <span className="img-span"><img src={Image3} className='card5-img3' alt="img" /></span> </p>       
+                  <p className="p6">
+                    <span className="clr-26">26</span> Components{" "}
+                    <span className="img-span">
+                      <img src={Image3} className="card5-img3" alt="img" />
+                    </span>{" "}
+                  </p>
                 </div>
               </figcaption>
-            </figure> 
+            </figure>
           </div>
-         
         </div>
       </section>
-        <div className="la-div">
-            <button className="lbtn">See All UI Kits →</button>
-        </div>
+      <div className="la-div">
+        <button className="lbtn">See All UI Kits →</button>
+      </div>
     </div>
-  )
+  );
 }

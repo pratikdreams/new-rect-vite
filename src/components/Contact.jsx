@@ -20,14 +20,14 @@ export default function Contact() {
             </div>
           </div>
           <form className="contact-form" data-aos="zoom-out">
-            <div className="form-row">
+            <div className="form-row ">
               <div className="form-group form-group-half" >
-                <label htmlFor="name" className="form-labelcc text-light">Your Name</label>
+                <label htmlFor="name" className="form-labelcc text-light mt-1">Your Name</label>
                 <input type="text" id="name" className="form-inputcc" placeholder="Your name" />
               </div>
               <div className="form-group form-group-half">
-                <label htmlFor="email" className="form-labelcc text-light pt-2">Your Email</label>
-                <input type="email" id="email" className="form-inputcc form-ll" placeholder="example@gmail.com" />
+                <label htmlFor="email" className="form-labelcc fl-b text-light pt-2">Your Email</label>
+                <input type="email" id="email" className="form-inputcc form-ll mt-2" placeholder="example@gmail.com" />
               </div>
             </div>
             <div className="form-group form-group-full">
@@ -35,8 +35,8 @@ export default function Contact() {
               <input type="text" id="product" className="form-inputcc" placeholder="Write product name" />
             </div>
             <div className="form-group form-group-full">
-              <label htmlFor="message" className="form-labelcc text-light">Your Message</label>
-              <textarea id="message" className="form-textarea" placeholder="Write your message..." defaultValue={""} />
+              <label htmlFor="message" className="form-labelcc text-light ">Your Message</label>
+              <textarea id="message" className="form-textarea mt-2" placeholder="Write your message..." defaultValue={""} />
             </div>
             <button type="submit" className="submit-button">Send Message</button>
           </form>

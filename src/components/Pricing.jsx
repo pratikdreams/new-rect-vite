@@ -9,7 +9,7 @@ export default function Pricing() {
         <h1 className="pricingh1 text-light">Pricing</h1>
         <p className="pricingp"> Build your website with confidence, knowing that our flexible pricing plans are designing to meet your unique needs and budget</p>
         <div className="pc">
-          <div className="card" data-aos="fade-left">
+          <div className="card" data-aos="flip-left">
             <h2 className='text-light'>DESIGNER</h2>
             <div className="rs">$49 <span>/year</span></div>
             <p className="mainp">Good for a personal or client web/mobile app.</p>
