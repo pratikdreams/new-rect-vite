@@ -3,7 +3,7 @@
 } */
 .sec7-cont {
   color: var(--stdWhite);
-  padding: 20px;
+ 
 }
 
 .main-sec-7 {
@@ -61,7 +61,7 @@
   }
   @media (min-width: 992px) {
     .sec7-cont {
-        max-width: 1200px;
+        /* max-width: 1200px; */
         margin: 0 auto;
       }
       .main-sec-7{

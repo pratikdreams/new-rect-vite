@@ -110,7 +110,7 @@ export default function Pricingpagecompo() {
     </section>
     {/*  */}
     <section className="main-container-p">
-      <div className="pricing-all-action" data-aos="fade-right">
+      <div className="pricing-all-action" data-aos="zoom-in">
         <h2 className='text-light'>Not sure which template to buy?<br />Get all of them</h2>
         <div className="pricing-sec-child1">
           <div className="pricing-child2">No payment required</div>
@@ -122,18 +122,18 @@ export default function Pricingpagecompo() {
         <h2 className='text-light  fs-2'>Frequently Asked Questions</h2>
         <p className="faq-description">Check out the Best full stack solution and React, Next.js Ready-Made Templates. Every templates we ensure super fast speed, scaleable and secure</p>
         <div className="faq-grid">
-          <div className="four-i" data-aos="fade-right">
+          <div className="four-i" data-aos="flip-right">
             <p className="for-p" >Do you offer refunds if I am not satisfied with the products or membership?</p>
             <p>Yes, we offer refunds within 7 days for all products and bundles, but unfortunately not for membership plans.</p>
           </div>
-          <div className="four-i" data-aos="fade-left">
+          <div className="four-i" data-aos="flip-left">
             <p className="for-p">Can I Use templates and components for client project?</p>
             <p>Yes, you can use the templates and components for both client and personal projects. You can not sell any product directly or with any notification of digital downloadable items.</p>
           </div>
-          <div className="four-i" data-aos="fade-right">
+          <div className="four-i" data-aos="flip-right">
             <p className="for-p">Can I modify or customize the templates and components to fit my specific needs?</p>
           </div>
-          <div className="four-i" data-aos="fade-left">
+          <div className="four-i" data-aos="flip-left">
             <p className="for-p">Do you offer documentation to help me get started with using these products?</p>
           </div>
         </div>

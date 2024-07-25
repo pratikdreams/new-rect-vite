@@ -7,7 +7,7 @@ export default function Contact() {
        <section className="ccf">
         <div className="containercc">
           <h1 className="main-heading text-light">Get In Touch</h1>
-          <p className="subtitlecc" >We are here to help and answer any question you might have. We look forward to hearing from you.</p>
+          <p className="subtitlecc text-light" >We are here to help and answer any question you might have. We look forward to hearing from you.</p>
           <div className="contact-infocc">
             <div className="email-section text-light " data-aos="fade-right">
               <h2 className="subcc text-light">Email Us</h2>

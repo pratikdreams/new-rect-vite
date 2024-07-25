@@ -1,6 +1,6 @@
 
 .pricingsec4 {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     text-align: center;
     color: var(--stdWhite);
@@ -124,21 +124,7 @@
     .card {
         width: 287px;
     }
-    .section5 {
-      max-width: 700px;
-      margin: 0 auto 40px;
-  
-    }
-    .section5-div {
-      flex-direction: row;
-    }
     
-    .fea1 , .fea2 {
-      max-width:319px;
-    }
-    .mbc{
-      padding-left: 43px;
-  }
   }
   @media (min-width:992px) {
     .pricingh1 {

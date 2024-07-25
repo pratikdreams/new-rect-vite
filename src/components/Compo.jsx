@@ -37,7 +37,7 @@ export default function Compo() {
       </div>
       <div className="line-p" />
       <div className="abcd ">
-        <div className="card" >
+        <div className="card-com">
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Menu</div>
           <div><img src={Image8} className='mtimg' alt="" /></div>
@@ -46,7 +46,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card" >
+        <div className="card-com" >
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Alert</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -55,7 +55,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card" >
+        <div className="card-com" >
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Badges</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -64,7 +64,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card" >
+        <div className="card-com" >
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Breadcrumbs</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -73,7 +73,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card" >
+        <div className="card-com" >
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Cart</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -82,7 +82,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card" >
+        <div className="card-com" >
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Input Groups</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -91,7 +91,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card" >
+        <div className="card-com" >
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Textarea</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -100,7 +100,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card" >
+        <div className="card-com" >
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Input</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -109,7 +109,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card" >
+        <div className="card-com" >
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Toggle</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -118,7 +118,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card" >
+        <div className="card-com" >
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Dropdown</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -127,7 +127,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card" >
+        <div className="card-com" >
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Menu</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -136,7 +136,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card">
+        <div className="card-com">
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Menu</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -145,7 +145,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card">
+        <div className="card-com">
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Menu</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -154,7 +154,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card">
+        <div className="card-com">
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Menu</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -163,7 +163,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card">
+        <div className="card-com">
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Toggle</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -172,7 +172,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card">
+        <div className="card-com">
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Indicator</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -181,7 +181,7 @@ export default function Compo() {
             <img src={Image} className="sunflo" alt="" />
           </div>
         </div>
-        <div className="card">
+        <div className="card-com">
           <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
           <div className="menu-text text-light">Menu</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
@@ -219,7 +219,7 @@ export default function Compo() {
           </ul>
         </div>
         <div className="main-content">
-          <h2 className="core-c">Core Components</h2>
+          <h2 className="core-c text-light">Core Components</h2>
           <ul className="components-list">
             <li className="component-item">Alert <span className="count">0</span></li>
             <li className="component-item">Avatar <span className="count">0</span></li>
@@ -259,15 +259,15 @@ export default function Compo() {
         </div>
         <hr className="hrhr" />
         <div className="component-grid1" data-aos="zoom-in">
-          <div className="card">
+          <div className="card-com">
             <div className="content-box1"><img src={Image7} className='cbimg' alt="" /></div>             
           </div>
           <div className="component-grid1">
-            <div className="card">
+            <div className="card-com">
               <div className="content-box1"><img src={Image7} className='cbimg' alt="" /></div>             
             </div>
             <div className="component-grid1">
-              <div className="card">
+              <div className="card-com">
                 <div className="content-box1"><img src={Image7} className='cbimg' alt="" /></div>             
               </div>
             </div>

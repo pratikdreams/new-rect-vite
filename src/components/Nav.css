@@ -1,6 +1,4 @@
-
-
-/*  */
+/* General styles */
 .mobile-section {
   display: block;
 }
@@ -9,19 +7,20 @@
   display: none;
 }
 
-.navbar{
-    margin: 0 11px;
+.navbar {
+  margin: 0 11px;
 }
 
 .butdrop {
+  width: 100%;
   color: white;
   padding: 10px;
   border-radius: 8px;
   background-color: #3f59d4;
   margin-top: 18px;
 }
+
 .navbar {
-  padding: 15px 30px;
   background-color: var(--stdbg);
 }
 
@@ -62,20 +61,23 @@
   border-top: 1px solid #3e3f4e;
 }
 
-
 .navbar-toggler {
   border-color: transparent;
 }
 
 .navbar-toggler-icon {
-  background-image: url("../assets/nav-and-cta/bars-solid.svg");
-  filter: invert(1);
+  background-image: url("../assets/nav-and-cta/Group 84.png"); /* Use your custom image */
+  background-size: cover;
+  width: 24px;
+  height: 24px;
 }
 
+/* Media queries */
 @media (min-width: 768px) {
   .mobile-section {
     display: block;
   }
+
   .desktop-section {
     display: none;
   }
@@ -85,10 +87,12 @@
   .mobile-section {
     display: none;
   }
+
   .desktop-section {
     display: block;
   }
-  .mh{
+
+  .mh {
     display: none;
   }
 

@@ -8,7 +8,7 @@ export default function Card5() {
   return (
     <div>
       <section className>
-        <div className="card-parent mt-5 ">
+        <div className="card-parent mt-5 ms-md-5 me-md-5 ms-lg-4 me-lg-4">
           <div className="card-child effect-form5  ">
             <figure className="fig-div ">
               <div className="fig-child ">
@@ -16,7 +16,7 @@ export default function Card5() {
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
                 <input type="text" className="fig-inp" /> <br />
                 <input type="text" className="fig-inp" /> <br />
-                <button className="fig-button">submit</button>
+                <button className="fig-button">Submit</button>
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
               </div>
               <figcaption className="figcaption">
@@ -47,7 +47,7 @@ export default function Card5() {
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
                 <input type="text" className="fig-inp" /> <br />
                 <input type="text" className="fig-inp" /> <br />
-                <button className="fig-button">submit</button>
+                <button className="fig-button">Submit</button>
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
               </div>
               <figcaption className="figcaption">
@@ -78,7 +78,7 @@ export default function Card5() {
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
                 <input type="text" className="fig-inp" /> <br />
                 <input type="text" className="fig-inp" /> <br />
-                <button className="fig-button">submit</button>
+                <button className="fig-button">Submit</button>
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
               </div>
               <figcaption className="figcaption">
@@ -109,7 +109,7 @@ export default function Card5() {
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
                 <input type="text" className="fig-inp" /> <br />
                 <input type="text" className="fig-inp" /> <br />
-                <button className="fig-button">submit</button>
+                <button className="fig-button">Submit</button>
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
               </div>
               <figcaption className="figcaption">
@@ -140,7 +140,7 @@ export default function Card5() {
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
                 <input type="text" className="fig-inp" /> <br />
                 <input type="text" className="fig-inp" /> <br />
-                <button className="fig-button">submit</button>
+                <button className="fig-button">Submit</button>
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
               </div>
               <figcaption className="figcaption">
@@ -171,7 +171,7 @@ export default function Card5() {
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
                 <input type="text" className="fig-inp" /> <br />
                 <input type="text" className="fig-inp" /> <br />
-                <button className="fig-button">submit</button>
+                <button className="fig-button">Submit</button>
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
               </div>
               <figcaption className="figcaption">
@@ -202,7 +202,7 @@ export default function Card5() {
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
                 <input type="text" className="fig-inp" /> <br />
                 <input type="text" className="fig-inp" /> <br />
-                <button className="fig-button">submit</button>
+                <button className="fig-button">Submit</button>
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
               </div>
               <figcaption className="figcaption">
@@ -233,7 +233,7 @@ export default function Card5() {
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
                 <input type="text" className="fig-inp" /> <br />
                 <input type="text" className="fig-inp" /> <br />
-                <button className="fig-button">submit</button>
+                <button className="fig-button">Submit</button>
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
               </div>
               <figcaption className="figcaption">
@@ -264,7 +264,7 @@ export default function Card5() {
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
                 <input type="text" className="fig-inp" /> <br />
                 <input type="text" className="fig-inp" /> <br />
-                <button className="fig-button">submit</button>
+                <button className="fig-button">Submit</button>
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
               </div>
               <figcaption className="figcaption">
@@ -295,7 +295,7 @@ export default function Card5() {
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
                 <input type="text" className="fig-inp" /> <br />
                 <input type="text" className="fig-inp" /> <br />
-                <button className="fig-button">submit</button>
+                <button className="fig-button">Submit</button>
                 <p className="p6">Lorem ipsum, dolor sit amet</p>
               </div>
               <figcaption className="figcaption">
@@ -322,7 +322,7 @@ export default function Card5() {
         </div>
       </section>
       <div className="la-div">
-        <button className="lbtn">See All UI Kits →</button>
+        <button className="lbtn mt-2 mt-md-4">See All UI Kits →</button>
       </div>
     </div>
   );

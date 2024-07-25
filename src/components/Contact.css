@@ -1,4 +1,11 @@
-
+/* .card {
+    background-color: #0d0f21;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 270px;
+    text-align: left;
+  } */
 .ccf {
     line-height: 1.6;
 }
@@ -131,6 +138,9 @@ input[type="text"] {
 }
 
 @media screen and (min-width: 992px) {
+    .subcc {
+        text-align: start;
+    }
   
     .containercc {
         padding: 40px;

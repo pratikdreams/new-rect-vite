@@ -8,8 +8,9 @@ import Image3 from "../assets/footer/image 61.png"
 export default function Footer() {
   return (
     <div>
-       <footer className='footersec'>
-        <div className="foot-b">
+     <section className='ps-lg-5 pe-lg-5 sdfgh'>
+     <footer className='footersec ps-4 pe-4 ps-md-5 pe-md-5 '>
+        <div className="foot-b ">
           <div className="logo">
             <img src={Image1} className="f-img" alt="" />
           </div>
@@ -42,6 +43,7 @@ export default function Footer() {
               <li>Tailwind CSS Template</li>
               <li>Next.js Templates</li>
               <li>Figma Templates</li>
+              <li>Figma Templates</li>
             </ul>
           </div>
           <div className="info">
@@ -69,6 +71,7 @@ export default function Footer() {
           <img src={Image3} className="ssl-img2" alt="" /> 
         </div>
       </footer>
+     </section>
     
     </div>
   )

@@ -1,9 +1,12 @@
-.sec6 h2 {
+.sec6 {
+  padding-top: 30px;
+}
+
+.h2faq {
   font-size: 21px;
   color: var(--stdWhite);
   font-weight: 600;
   line-height: 26.63px;
-  padding: 21px 14px;
 }
 
 .sec6-p {
@@ -25,8 +28,6 @@
   text-align: center;
   margin-top: 20px;
   border: 1px solid #282a3a;
-  margin-left: 14px;
-  margin-right: 14px;
 }
 
 .get-button {
@@ -68,12 +69,18 @@
   }
 
   .sec6-main {
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: start;
   }
 
-  .sec6 h2 {
+  .h2faq {
     font-size: 38px;
+    text-align: start;
+    padding-left: 15px;
+  }
+
+  .sec6-p {
+    font-size: 16px;
   }
 
   .p6 {
@@ -100,12 +107,14 @@
 
 .accordion-body {
   background-color: #040619;
-  color: white;
+  color: whitesmoke;
+  font-size: 14px;
 }
 
 .accordion-item {
   background-color: #040619;
-  border: 1px solid #111325;
+  border: 1px solid #282a3a;
+  padding: 15px;
 }
 
 .accordion-header button {
@@ -113,11 +122,8 @@
   color: white;
 }
 
-/* Update arrow colors */
-.accordion-button::after {
-  color: #4f505e;
-}
-
+.accordion-button.collapsed::after,
 .accordion-button:not(.collapsed)::after {
-  color: #4f505e;
+  color: white !important;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'><path d='M2 5L8 11L14 5'/></svg>");
 }

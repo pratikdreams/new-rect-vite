@@ -79,7 +79,7 @@ input[type="text"] {
     margin-top: 10px;
 }
 
-.card {
+.card-com  {
     background-color: #111325;
     border-radius: 10px;
     padding: 20px;
@@ -109,7 +109,7 @@ input[type="text"] {
         border-radius: 7px;
         align-items: center;
 }
-.card{
+.card-com{
     margin-top: 12px;
 }
 .sub-pp{
@@ -294,7 +294,7 @@ input[type="text"] {
   .mid-div{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid var(--stdWhite);
+    /* border-bottom: 1px solid var(--stdWhite); */
     padding-bottom: 50px;
   }
   .mid-div h1{

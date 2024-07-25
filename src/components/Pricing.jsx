@@ -6,8 +6,8 @@ export default function Pricing() {
   return (
     <div>
        <section className="pricingsec4">
-        <h1 className="pricingh1 text-light">Pricing</h1>
-        <p className="pricingp"> Build your website with confidence, knowing that our flexible pricing plans are designing to meet your unique needs and budget</p>
+        <h1 className="pricingh1 text-light fs-1 mt-5">Pricing</h1>
+        <p className="pricingp ps-4 pe-4 ps-md-5 pe-md-5"> Build your website with confidence, knowing that our flexible pricing plans are designing to meet your unique needs and budget</p>
         <div className="pc">
           <div className="card" data-aos="flip-left">
             <h2 className='text-light'>DESIGNER</h2>
@@ -54,7 +54,7 @@ export default function Pricing() {
           <div className="card" data-aos="flip-left">
             <h2 className='text-light'>LIFETIME ACCESS</h2>
             <div className="rs">$299 <span>/forever</span></div>
-            <p className="mainp">Join and acquire Lifetime Access to all our Present &amp; Future Premium Products!</p>
+            <p className="mainp">Join and acquire Lifetime Access to all our Present</p>
             <hr className="phr" />
             <ul>
               <li className="lia">All Figma Templates</li>
