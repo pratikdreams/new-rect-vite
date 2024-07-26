@@ -51,8 +51,6 @@
   padding-top: 20px;
 }
 
-
-
 @media (min-width: 768px) {
   .sec6 {
     display: flex;
@@ -106,7 +104,6 @@
   color: white;
   box-shadow: none;
 }
-
 
 .ab-faq {
   background-color: #040619;

@@ -14,7 +14,6 @@ import Image11 from "../assets/blogpage/Ellipse 33.png"
 import Image12 from "../assets/blogpage/Ellipse 34.png"
 import Image13 from "../assets/blogpage/image 83.png"
 
-
 export default function Blogcom() {
   return (
     <div>

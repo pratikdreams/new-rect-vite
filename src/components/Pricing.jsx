@@ -5,7 +5,7 @@ import Image1 from "../assets/section4/Arrow 6.png"
 export default function Pricing() {
   return (
     <div>
-       <section className="pricingsec4">
+       <section className="pricingsec4 pt-lg-3">
         <h1 className="pricingh1 text-light fs-1 mt-5">Pricing</h1>
         <p className="pricingp ps-4 pe-4 ps-md-5 pe-md-5"> Build your website with confidence, knowing that our flexible pricing plans are designing to meet your unique needs and budget</p>
         <div className="pc">

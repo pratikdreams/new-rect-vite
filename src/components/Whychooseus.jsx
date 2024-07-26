@@ -11,8 +11,7 @@ import Image6 from "../assets/section5/Ellipse 5 (2).png"
 export default function Whychooseus() {
   return (
     <div>
-      
-      
+  
       <section className='ms-lg-5 me-lg-5'>
       <section className="section5  ms-4 me-4 ms-md-5 me-md-5 ms-lg-5 me-lg-5 ">
       
@@ -52,8 +51,7 @@ export default function Whychooseus() {
       </div>
     </section>
       </section>
-      
-      
+    
     </div>
   )
 }

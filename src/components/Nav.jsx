@@ -5,7 +5,7 @@ import Image from "../assets/nav-and-cta/Group 46.png";
 import Image1 from "../assets/nav-and-cta/Arrow 1.png";
 import TogglerImage from "../assets/nav-and-cta/Group 84.png"; // Import your custom image
 import BtnApp from "./btn";
-import { Link, Navigate, NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Nav() {
   return (
@@ -13,9 +13,9 @@ export default function Nav() {
       {/* mobile */}
       <section className="mobile-section">
         <nav className="navbar navbar-light mobile">
-          <NavLink to="/" ><a className="navbar-brand" href="#">
+          <NavLink to="/" className="navbar-brand">
             <img src={Image} className="mainlogo" alt="Logo" />
-          </a></NavLink>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -29,16 +29,18 @@ export default function Nav() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mr-auto m-2 ">
-              <NavLink to="/l" ><button className="butdrop">Sign In or Registration  </button> </NavLink>
+              <NavLink to="/l">
+                <button className="butdrop">Sign In or Registration</button>
+              </NavLink>
               <li className="nav-item">
-                <NavLink to="/Home" >  <a className="nav-link" href="#">
+                <NavLink to="/Home" className="nav-link">
                   Home
-                </a> </NavLink>
+                </NavLink>
               </li>
 
               <li className="nav-item dropdown">
                 <a
-                  className="nav-link dropdown-toggle "
+                  className="nav-link dropdown-toggle"
                   href="#"
                   id="navbarDropdown"
                   role="button"
@@ -69,24 +71,24 @@ export default function Nav() {
               </li>
 
               <li className="nav-item">
-                <NavLink to="/c" > <a className="nav-link" href="#">
+                <NavLink to="/c" className="nav-link">
                   Components
-                </a></NavLink>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/e" >  <a className="nav-link" href="#">
+                <NavLink to="/e" className="nav-link">
                   Pricing
-                </a> </NavLink>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/Blogpage" >  <a className="nav-link" href="#">
+                <NavLink to="/Blogpage" className="nav-link">
                   Blog
-                </a></NavLink>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/Contactpage" >  <a className="nav-link" href="#">
+                <NavLink to="/Contactpage" className="nav-link">
                   Contact us
-                </a></NavLink>
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -98,37 +100,45 @@ export default function Nav() {
       <section className="desktop-section">
         <nav className="nav desk">
           <div>
-            <NavLink to="/" > <img src={Image} className="mainlogo" alt="" /></NavLink>
+            <NavLink to="/">
+              <img src={Image} className="mainlogo" alt="Logo" />
+            </NavLink>
           </div>
           <ul className="navul">
             <li>
-              <a href>
-                <NavLink to="/Home">Home</NavLink>
-              </a>
+              <NavLink to="/Home" className="nav-link">
+                Home
+              </NavLink>
             </li>
             <li>
-              <a href>
-                <BtnApp />
-              </a>
+              <BtnApp />
             </li>
             <li>
-              <a href>
-                <NavLink to="/c">Components</NavLink>
-              </a>
+              <NavLink to="/c" className="nav-link">
+                Components
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/e" ><a href>Pricing</a> </NavLink>
+              <NavLink to="/e" className="nav-link">
+                Pricing
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/Blogpage" ><a href>Blog</a></NavLink>
+              <NavLink to="/Blogpage" className="nav-link">
+                Blog
+              </NavLink>
             </li>
             <li>
-              <a href> <NavLink to="/Contactpage">Contact Us</NavLink> </a>
+              <NavLink to="/Contactpage" className="nav-link">
+                Contact Us
+              </NavLink>
             </li>
           </ul>
-          <NavLink to="/l" ><button className="sbtn">
-            Sign in <img src={Image1} className="arrow" alt="" />
-          </button> </NavLink>
+          <NavLink to="/l">
+            <button className="sbtn">
+              Sign in <img src={Image1} className="arrow" alt="" />
+            </button>
+          </NavLink>
         </nav>
       </section>
     </div>

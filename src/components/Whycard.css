@@ -3,7 +3,6 @@
 } */
 .sec7-cont {
   color: var(--stdWhite);
- 
 }
 
 .main-sec-7 {
@@ -36,7 +35,7 @@
   border: none;
   border-radius: 5px;
   background-color: #040619;
-  color:var(--stdWhite);
+  color: var(--stdWhite);
 }
 
 .main-sec-7 button {
@@ -48,47 +47,43 @@
   cursor: pointer;
 }
 
-.main-sec-7 button:hover{
+.main-sec-7 button:hover {
   background-color: #470ca0;
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
-  @media (min-width: 768px) {
-
-
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+  .sec7-cont {
+    /* max-width: 1200px; */
+    margin: 0 auto;
   }
-  @media (min-width: 992px) {
-    .sec7-cont {
-        /* max-width: 1200px; */
-        margin: 0 auto;
-      }
-      .main-sec-7{
-        /* width: 1073px; */
-        height: 430px;
-        padding-top: 100px;
-      }
-      .main-sec-7 h2{
-        font-size: 46px;
-      }
-      .main-sec-7 p{
-          padding: 10px 179px;
-          font-size: 18px;
-      }
-      
-      .main-sec-7 form {
-        flex-direction: row;
-        justify-content: center;
-      }
-      
-      .main-sec-7 input[type="email"] {
-        width: 639px;
-        margin-right: 10px;
-        margin-bottom: 0;
-      }
-      .main-sec-7 button {
-        padding: 20px;
-      }
-        
-}  
+  .main-sec-7 {
+    /* width: 1073px; */
+    height: 430px;
+    padding-top: 100px;
+  }
+  .main-sec-7 h2 {
+    font-size: 46px;
+  }
+  .main-sec-7 p {
+    padding: 10px 179px;
+    font-size: 18px;
+  }
+
+  .main-sec-7 form {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .main-sec-7 input[type="email"] {
+    width: 639px;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+  .main-sec-7 button {
+    padding: 20px;
+  }
+}

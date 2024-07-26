@@ -4,6 +4,12 @@
 .bgga {
   background-color: #040619;
 }
+.bbggbb{
+  color: #FFFFFF;
+}
+.bbggbb:hover{
+  color: #4b6bfb;
+}
 
 .filterDiv {
   float: left;
@@ -11,7 +17,7 @@
   color: #FFFFFF;
   width: 100px;
   /* line-height: 100px; */
-  /* text-align: center; */
+
   margin: 2px;
   display: none;
 }
