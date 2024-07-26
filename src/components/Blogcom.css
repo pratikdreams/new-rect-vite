@@ -54,6 +54,7 @@
 .post h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
+  text-align: start;
 }
 .post-meta {
   display: flex;
@@ -113,6 +114,10 @@
   margin-bottom: 15px;
   display: flex;
   align-items: center;
+  cursor: pointer;
+}
+.sidebar-list li:hover {
+color: #3b5bdb;
 }
 .sidebar-card {
   background-color: #3b5bdb;
@@ -120,7 +125,7 @@
   padding: 20px;
   color: white;
 }
-.sidebar-card .btn {
+.sidebar-card .bcp-btn {
   background-color: white;
   color: #3b5bdb;
   padding: 10px 20px;
@@ -129,19 +134,20 @@
   display: inline-block;
   margin-top: 10px;
 }
-.metablog-card {
-  border-radius: 10px;
-  padding: 20px;
-  color: #1e2130;
-  margin-top: 50px;
+.bcp-btn:hover {
+background-color: none;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.metablog-card img {
-  max-width: 100%;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
+
+ .metablog-card{
+  margin-top: 30px;
+ }
 .slimg {
   width: 30px;
+}
+.bch3{
+  font-size: 20px;
 }
 
 /* Tablet View (max-width: 768px) */
@@ -172,6 +178,9 @@
   .sidebar {
     display: none;
   }
+  .post h2 {
+    text-align: center;
+}
 }
 
 

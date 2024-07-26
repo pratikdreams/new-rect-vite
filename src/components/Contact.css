@@ -6,6 +6,10 @@
     max-width: 270px;
     text-align: left;
   } */
+
+  .subcc {
+    text-align: start;
+}
 .ccf {
     line-height: 1.6;
 }
@@ -82,7 +86,7 @@
     resize: vertical;
 }
 
-.submit-button {
+.submit-button-con {
     background-color: #5454d4;
     color: #ffffff;
     border: none;
@@ -90,7 +94,12 @@
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    width: 100%;
+    /* width: 100%; */
+}
+.submit-button-con:hover{
+    background-color: #470ca0;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 input[type="text"] {

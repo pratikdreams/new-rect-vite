@@ -6,7 +6,7 @@ import Image2 from "../assets/login/image 87.png"
 export default function Login() {
   return (
    <section className='login-mmj'>
-     <div className="login-container">
+     <div className="login-container ms-2 me-2">
     <h1>welcome</h1>
     <h2>log in to JS template</h2>
     <form>

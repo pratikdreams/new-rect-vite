@@ -22,7 +22,7 @@ export default function Blogcom() {
        <main>
        <div className="containerblog">
           <h1 className="blogh1 mt-5">JS Template Blog</h1>
-          <p className="subtitleblog">That blog dedicated to providing regular updates, articles, and other forms of content related to web design and development.</p>
+          <p className="subtitleblog ps-md-5 pe-md-5">That blog dedicated to providing regular updates, articles, and other forms of content related to web design and development.</p>
           <div className="blog-posts">
             <div className="posts">
               <div className="post" >
@@ -76,6 +76,17 @@ export default function Blogcom() {
                   <h2 className='text-light'>Designing A Personal Website? Choose the Dark Portfolio Template</h2>
                   <div className="post-meta">
                     <span className="post-date">May 5, 2023</span>
+                    <a href="#" className="read-more">Read More →</a>
+                  </div>
+                </div>
+              </div>
+              <div className="post">
+                <img src={Image3} alt="e" />
+                <div className="post-content">
+                  <div className="post-info">HEADLESS COMMERCE</div>
+                  <h2 className='text-light'>How To Build a Headless Woocommerce Store</h2>
+                  <div className="post-meta">
+                    <span className="post-date">Jul 20, 2023</span>
                     <a href="#" className="read-more">Read More →</a>
                   </div>
                 </div>
@@ -213,18 +224,6 @@ export default function Blogcom() {
                 </div>
               </div>
               <div className="post">
-                <div className="post no-image">No Image</div>
-                <div className="post-content">
-                  <div className="post-info">FIGMA TEMPLATE</div>
-                  <h2 className='text-light'>Best 10 Figma IOS UI Kit</h2>
-                  <p className="pppp">If you know how to design a mobile app from scratch then you certainly know that creating the UI from scratch can be fun But at the same time; it is quite a time-consuming task. Any UI...</p>
-                  <div className="post-meta">
-                    <span className="post-date">May 11, 2021</span>
-                    <a href="#" className="read-more">Read More →</a>
-                  </div>
-                </div>
-              </div>
-              <div className="post">
                 <img src={Image10}alt="" />
                 <div className="post-content">
                   <div className="post-info">MERN STACK</div>
@@ -236,6 +235,19 @@ export default function Blogcom() {
                   </div>
                 </div>
               </div>
+              <div className="post">
+                <div className="post no-image">No Image</div>
+                <div className="post-content">
+                  <div className="post-info">FIGMA TEMPLATE</div>
+                  <h2 className='text-light'>Best 10 Figma IOS UI Kit</h2>
+                  <p className="pppp">If you know how to design a mobile app from scratch then you certainly know that creating the UI from scratch can be fun But at the same time; it is quite a time-consuming task. Any UI...</p>
+                  <div className="post-meta">
+                    <span className="post-date">May 11, 2021</span>
+                    <a href="#" className="read-more">Read More →</a>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div className="sidebar">
               <div className="sidebar-section">
@@ -268,7 +280,7 @@ export default function Blogcom() {
               <div className="sidebar-card">
                 <h3 className='bch3'>Need customizations for the template you purchased? or have a custom request?</h3>
                 <p>Hire us and we will help you out?</p>
-                <a href="#" className="btn">Hire Us →</a>
+                <button className='bcp-btn'><a href="#" className="b-btn">Hire Us →</a></button>
               </div>
               <div className="metablog-card">
                 <img src={Image13} alt="MetaBlog" />

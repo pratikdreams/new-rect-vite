@@ -136,7 +136,9 @@
       .footer-l > div {
         width: 30%;
       }
-      
+      .ssl{
+        margin-top: 1px;
+      }
       .ssl-img2{
       width: 560px;
       cursor: pointer;
@@ -170,8 +172,7 @@
       .hire {
           width: 20%;
       }
-      
-      
+     
       
       .copyright {
           width: 100%;

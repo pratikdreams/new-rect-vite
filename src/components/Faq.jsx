@@ -21,50 +21,50 @@ export default function Faq() {
         <div className="sec6-div2 me-lg-4" data-aos="flip-right" >
      
           <div className="accordion ms-4 me-4" id="accordionPanelsStayOpenExample">
-            <div className="accordion-item">
+            <div className="accordion-item ai-faq">
               <h2 className="accordion-header" id="panelsStayOpen-headingOne">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                <button className="accordion-button faq-acc-btn collapsed clp-acc" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
                   Do you offer refunds if I am not satisfied with the products or membership?
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne" data-bs-parent="#accordionPanelsStayOpenExample">
-                <div className="accordion-body">
+                <div className="accordion-body ab-faq">
                   Yes, we offer refunds within 7 days for all products and bundles, but unfortunately not for membership plans.
                 </div>
               </div>
             </div>
-            <div className="accordion-item">
+            <div className="accordion-item ai-faq">
               <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                <button className="accordion-button  faq-acc-btn collapsed clp-acc" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                   Can I modify or customize the templates and components to fit my specific needs?
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo" data-bs-parent="#accordionPanelsStayOpenExample">
-                <div className="accordion-body">
+                <div className="accordion-body ab-faq">
                   Yes, you can modify or customize the templates and components to fit your specific needs.
                 </div>
               </div>
             </div>
-            <div className="accordion-item">
+            <div className="accordion-item ai-faq">
               <h2 className="accordion-header" id="panelsStayOpen-headingThree">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <button className="accordion-button faq-acc-btn collapsed clp-acc" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                   Can I use templates and components for client projects?
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree" data-bs-parent="#accordionPanelsStayOpenExample">
-                <div className="accordion-body">
+                <div className="accordion-body ab-faq">
                   Yes, you can use the templates and components for client projects.
                 </div>
               </div>
             </div>
-            <div className="accordion-item">
+            <div className="accordion-item ai-faq">
               <h2 className="accordion-header" id="panelsStayOpen-headingFour">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                <button className="accordion-button faq-acc-btn collapsed clp-acc" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
                   Do you offer documentation to help me get started with using these products?
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseFour" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour" data-bs-parent="#accordionPanelsStayOpenExample">
-                <div className="accordion-body">
+                <div className="accordion-body ab-faq">
                   Yes, we offer detailed documentation to help you get started with using our products.
                 </div>
               </div>

@@ -8,7 +8,7 @@ import Image3 from "../assets/footer/image 61.png"
 export default function Footer() {
   return (
     <div>
-     <section className='ps-lg-5 pe-lg-5 sdfgh'>
+     <section className=' pt-2 ps-lg-5 pe-lg-5 sdfgh'>
      <footer className='footersec ps-4 pe-4 ps-md-5 pe-md-5 '>
         <div className="foot-b ">
           <div className="logo">
@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
         <hr className="f-hr" />
         <div className="copyright">
-          <div> <p>© 2023 JS Template, All Right Reserved</p> </div>
+          <div className='f-cp-div'> <p>© 2023 JS Template, All Right Reserved</p> </div>
           <div className="ssl">
             <img src={Image2} className="ssl-img1" alt="" />SSL Secure Payment</div>
           <img src={Image3} className="ssl-img2" alt="" /> 

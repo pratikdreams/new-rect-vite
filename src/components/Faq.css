@@ -51,6 +51,8 @@
   padding-top: 20px;
 }
 
+
+
 @media (min-width: 768px) {
   .sec6 {
     display: flex;
@@ -88,42 +90,43 @@
   }
 }
 
-.accordion-button {
+.faq-acc-btn {
   background-color: #040619;
   color: white;
 }
 
-.accordion-button:not(.collapsed) {
-  background-color: #040619;
-  color: white;
-  box-shadow: none;
-}
-
-.accordion-button:focus {
+.faq-acc-btn:not(.collapsed) {
   background-color: #040619;
   color: white;
   box-shadow: none;
 }
 
-.accordion-body {
+.faq-acc-btn:focus {
+  background-color: #040619;
+  color: white;
+  box-shadow: none;
+}
+
+
+.ab-faq {
   background-color: #040619;
   color: whitesmoke;
   font-size: 14px;
 }
 
-.accordion-item {
+.ai-faq {
   background-color: #040619;
   border: 1px solid #282a3a;
   padding: 15px;
 }
 
-.accordion-header button {
+/* .accordion-header button {
   background-color: #040619;
   color: white;
-}
+} */
 
-.accordion-button.collapsed::after,
-.accordion-button:not(.collapsed)::after {
+.faq-acc-btn.collapsed::after,
+.faq-acc-btn:not(.collapsed)::after {
   color: white !important;
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'><path d='M2 5L8 11L14 5'/></svg>");
 }

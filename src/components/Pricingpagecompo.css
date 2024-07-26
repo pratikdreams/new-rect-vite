@@ -175,23 +175,59 @@ text-align: center;
 margin-bottom: 30px;
 }
 
-.faq-grid {
+/* .faq-grid {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap: 20px;
-}
+} */
 
-.four-i {
+ /* .four-i {
 border: 1px solid var(--stdgrey);
 padding: 20px;
 border-radius: 10px;
-}
+} */
+
+
 
 .for-p {
 font-weight: bold;
 margin-bottom: 10px;
 }
 
+.faq-pricing-btn {
+  background-color: #040619;
+  color: white;
+}
+
+.faq-pricing-btn:not(.collapsed) {
+  background-color: #040619;
+  color: white;
+  box-shadow: none;
+}
+
+.faq-pricing-btn:focus {
+  background-color: #040619;
+  color: white;
+  box-shadow: none;
+}
+
+.ab-pricing {
+  background-color: #040619;
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+.ai-pricing {
+  background-color: #040619;
+  border: 1px solid #282a3a;
+  /* padding: 15px; */
+}
+
+.faq-pricing-btn.collapsed::after,
+.faq-pricing-btn:not(.collapsed)::after {
+  color: white !important;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'><path d='M2 5L8 11L14 5'/></svg>");
+}
 /* Tablet View */
 @media (max-width: 768px) {
 
@@ -233,10 +269,16 @@ margin-bottom: 10px;
       grid-template-columns: 1fr;
       gap: 15px;
     }
-  
     .four-i {
-      padding: 15px;
+      /* border: 1px solid var(--stdgrey); */
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 10px;
     }
+  
+    /* .four-i {
+      padding: 15px;
+    }  */
   
     .for-p {
       font-size: 16px;
