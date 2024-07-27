@@ -31,7 +31,10 @@
   background-color: var(--stdblue);
   color: var(--stdWhite);
     border-radius: 8px;
-
+ }
+ .fig-button:hover{
+ background-color: white;
+ color: black;
  }
  .card5-img1 , .card5-img3{
   width: 23px;
@@ -73,13 +76,16 @@
 
  .lbtn{
     color: white;
-    border: 1px solid grey;
-    padding: 12px 15px;
-    border-radius: 20px;
+    background-color: var(--stdblue);
+    /* border: 1px solid grey; */
+    padding: 15px 32px;
+    border-radius: 25px;
  }
  .lbtn:hover{
-  border: 1px solid var(--stdblue);
-  color: var(--stdblue);
+  /* border: 1px solid var(--stdblue); */
+  /* color: var(--stdblue); */
+  background-color: #ffffff;
+  color: #000000;
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  }
@@ -104,7 +110,7 @@
       }
       
       .card-child{
-        width: 23%;
+        width: 23vw;
       }
       .desk-card{
         display: block;

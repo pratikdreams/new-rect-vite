@@ -24,7 +24,8 @@
 }
 
 .cta-button:hover {
-  background-color: #470ca0;
+  background-color: #ffffff;
+  color: #000000;
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -109,10 +110,10 @@
   width: 24px;
 }
 
-.effect-form:hover {
+/* .effect-form:hover {
   transform: translateY(-20px);
   background-color: black;
-}
+} */
 
 @media (min-width: 768px) {
   .container {
@@ -169,14 +170,14 @@
   .cta h1 {
     font-size: 48px;
     color: var(--stdWhite);
-    margin: 0 231px;
+    /* margin: 0 231px; */
   }
   .cta p {
     font-size: 16px;
     margin-bottom: 25px;
     padding-top: 17px;
     color: var(--stdWhite);
-    margin: 0 304px;
+    /* margin: 0 304px; */
     padding-bottom: 28px;
   }
   .oneimg {

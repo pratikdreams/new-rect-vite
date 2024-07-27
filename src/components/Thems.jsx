@@ -67,7 +67,8 @@ export default function Thems() {
         </div>
      
         <div className='the-btnn'>
-          <button className="section3-child11 mt-5">See Our Products <span><img className="section3-child12" src={Image7} alt="" /></span></button>
+          <button className="section3-child11 mt-5">See Our Products → </button>
+          {/* <span><img className="section3-child12" src={Image7} alt="" /></span> */}
         </div>
       </section>
     </div>

@@ -102,8 +102,8 @@ export default function Pricingpagecompo() {
             </div>
             <div className="f-r">
               <span className="f-name" />
-              <span className="cross"> <button className="c-btnn">Coming Soon →</button></span>
-              <span className="cross"> <button className="c-btnn">Coming Soon →</button></span>
+              <span className="right"> <button className="c-btnn2">Coming Soon →</button></span>
+              <span className="right"> <button className="c-btnn2">Coming Soon →</button></span>
               <span className="right"> <button className="c-btnn2">Coming Soon →</button></span>
               <span className="right"> <button className="c-btnn2">Coming Soon →</button></span>
             </div>
@@ -117,7 +117,7 @@ export default function Pricingpagecompo() {
             <div className="pricing-child2">No payment required</div>
             <div className="pricing-child2">Quick Support and Services</div>
           </div>
-          <button className="cu-button">CONTACT US →</button>
+          <button className="cu-button">Contact Us →</button>
         </div>
         <div className="last-sec" data-aos="zoom-in">
           <h2 className='text-light fs-2'>Frequently Asked Questions</h2>

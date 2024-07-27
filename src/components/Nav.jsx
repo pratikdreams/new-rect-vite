@@ -136,7 +136,8 @@ export default function Nav() {
           </ul>
           <NavLink to="/l">
             <button className="sbtn">
-              Sign in <img src={Image1} className="arrow" alt="" />
+              Sign in →
+               {/* <img src={Image1} className="arrow" alt="" /> */}
             </button>
           </NavLink>
         </nav>

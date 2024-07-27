@@ -21,7 +21,8 @@ export default function Pricing() {
               <li className="uli"><span className="uli-span">All Headless CMS Templates</span></li>
             </ul>
             <hr className="phr" />
-            <button className="sub">SUBSCRIBE <img src={Image1} className="sub-img" alt="" /></button>
+            <button className="sub">Subscribe → </button> 
+            {/* <img src={Image1} className="sub-img" alt="" /> */}
           </div>
           <div className="card" data-aos="flip-left">
             <h2 className='text-light'>STARTUP</h2>
@@ -35,7 +36,8 @@ export default function Pricing() {
               <li className="lia">All Headless CMS Templates</li>
             </ul>
             <hr className="phr" />
-            <button className="sub">SUBSCRIBE <img src={Image1} className="sub-img" alt="" /></button>
+            <button className="sub">Subscribe → </button> 
+            
           </div>
           <div className="card" data-aos="flip-left">
             <h2 className='text-light'>COMPANY</h2>
@@ -49,7 +51,7 @@ export default function Pricing() {
               <li className="lia">All Headless CMS Templates</li>
             </ul>
             <hr className="phr" />
-            <button className="sub">SUBSCRIBE <img src={Image1} className="sub-img" alt="" /></button>
+            <button className="sub">Subscribe → </button> 
           </div>
           <div className="card" data-aos="flip-left">
             <h2 className='text-light'>LIFETIME ACCESS</h2>
@@ -63,10 +65,11 @@ export default function Pricing() {
               <li className="lia">All Headless CMS Templates</li>
             </ul>
             <hr className="phr" />
-            <button className="sub">SUBSCRIBE <img src={Image1} className="sub-img" alt="" /></button>
+            <button className="sub">Subscribe → </button> 
           </div>
         </div>
-        <a href="#" className="seep">See Pricing Details <img src={Image1} className="seep-img" alt="" /></a>
+        <button className="seep"> See Pricing Details →   </button> 
+        {/* <img src={Image1} className="seep-img" alt="" /> */}
       </section>
     </div>
   )

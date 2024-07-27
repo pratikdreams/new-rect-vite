@@ -10,11 +10,6 @@ import Image7 from "../assets/compo/Group 277.png"
 import Image8 from "../assets/compo/Group 273.png"
 import Image9 from "../assets/compo/Group 270.png"
 
-
-
-
-
-
 export default function Compo() {
   return (
      <div>
@@ -237,7 +232,7 @@ export default function Compo() {
       <section className="main-s">
         <div className="main-h">
           <div className="se-bar">
-            <input type="text" placeholder="Search..." />
+            <input type="text" className='ctxt' placeholder="Search..." />
             <button className="sebtn">
               <img src={Image6} alt="" />
             </button>

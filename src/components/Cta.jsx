@@ -15,9 +15,10 @@ export default function Cta() {
     <div>
     <section className="cta ms-md-4 me-md-4" data-aos="fade-left">
       <div className="cc ">Here is our component solution <button className="bt"><img src={Image} className="ctaimgl" alt="" /></button></div>
-      <h1 className='ps-2 pe-2' >Create Beautiful Website with Our Templates and UI Components</h1>
-      <p className='ps-3 pe-3 '>Create a stunning website that stands out with our headless CMS themes, React, Next.js templates, and UI components. Get access and start building!</p>
-      <a href="#" className="cta-button">Get All Access <img src={Image} className="ctaimg" alt="" /></a>
+      <h1 className='ps-2 pe-2 ' >Create Beautiful Website with Our Templates and UI Components</h1>
+      <p className='ps-3 pe-3 ms-lg-5 me-lg-5 ps-lg-5 pe-lg-5'>Create a stunning website that stands out with our headless CMS themes, React, Next.js templates, and UI components. Get access and start building!</p>
+     <button > <a href="#" className="cta-button" >Get All Access → </a> </button>
+        {/* <img src={Image} className="ctaimg" alt="" />  */}
     </section>
     <section className="container scale-up-center ctacenter">
       <div className="box effect-form">

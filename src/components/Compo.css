@@ -52,13 +52,17 @@
   border-radius: 5px;
 }
 
-input[type="text"] {
+.ctxt {
   background-color: #111325;
   padding: 10px;
   margin: 10px 0;
   width: 80%;
   border: 1px solid grey;
   border-radius: 5px;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .membership-info {

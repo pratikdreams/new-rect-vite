@@ -85,6 +85,8 @@ transition: transform 0.3s ease;
   transform: scale(1.1);
 }
 .c-btnn2:hover{
+  background-color: white;
+  color: black;
   transform: scale(1.1);
 }
 .c-btnn2{
@@ -147,7 +149,7 @@ margin-right: 10px;
 
 .cu-button {
 background-color: white;
-color: #4d5ef6;
+color: black;
 border: none;
 padding: 10px 20px;
 border-radius: 20px;

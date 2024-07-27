@@ -3,6 +3,10 @@ import './Footer.css'
 import Image1 from "../assets/footer/Group 85.png"
 import Image2 from "../assets/footer/image 63.png"
 import Image3 from "../assets/footer/image 61.png"
+import Image4 from "../assets/footer/image 62.png"
+
+
+
 
 
 export default function Footer() {
@@ -14,7 +18,7 @@ export default function Footer() {
           <div className="logo">
             <img src={Image1} className="f-img" alt="" />
           </div>
-          <p>Top of Javascript Templates, UI Components and Full Stack Solution.</p>
+          <p className='pe-lg-5'>Top of Javascript Templates, UI Components and Full Stack Solution our entire catalogue with a membership.</p>
           <div className="social-icons">
             <i className="i-footer fa-brands fa-github" />
             <i className="i-footer fa-brands fa-dribbble" />
@@ -58,17 +62,20 @@ export default function Footer() {
           </div>
         </div>
         <hr className="f-hr" />
+        <div className='ls-cl'>
         <div className="hire">
           <h3>Building Innovative Web Solutions from Frontend to Backend</h3>
-          <button>Hire Us →</button>
-          <p>Web development made easy with our full stack expertise.</p>
+          <button className='fr-btn'>Hire Us →</button>
         </div>
+       <div className='d-flex'> <img src={Image4} className='f-img4' alt="" /> <p> Web development made easy with our full stack expertise.</p></div>
+        </div>
+        
         <hr className="f-hr" />
         <div className="copyright">
-          <div className='f-cp-div'> <p>© 2023 JS Template, All Right Reserved</p> </div>
+          <div className='f-cp-div'> <p>© 2023 JS Template, All Right Reserved </p> </div>
           <div className="ssl">
-            <img src={Image2} className="ssl-img1" alt="" />SSL Secure Payment</div>
-          <img src={Image3} className="ssl-img2" alt="" /> 
+           <div className='d-flex pt-lg-3'> <div><img src={Image2} className="ssl-img12" alt="" /></div><div>SSL Secure Payment &nbsp; &nbsp; &nbsp;</div> </div>
+           <div> <img src={Image3} className="ssl-img2" alt="" /></div>  </div>
         </div>
       </footer>
      </section>

@@ -106,6 +106,9 @@
   text-decoration: none;
   font-size: 12px;
 }
+.topics a:hover{
+  color: white;
+}
 .sidebar-list {
   list-style-type: none;
   padding: 0;

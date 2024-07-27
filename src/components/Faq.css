@@ -31,17 +31,18 @@
 }
 
 .get-button {
-  border: 1px solid #748bed;
-  color: #748bed;
-  padding: 10px 20px;
-  border-radius: 20px;
+  /* border: 1px solid #748bed; */
+  color: white;
+  background-color: #4b6bfb;
+  padding: 10px 22px;
+  border-radius: 22px;
   cursor: pointer;
   margin-top: 20px;
 }
 
 .get-button:hover {
-  color: white;
-  background-color: #748bed;
+  color: black;
+  background-color: white;
   transform: scale(1.08);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
