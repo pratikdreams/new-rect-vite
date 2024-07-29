@@ -8,8 +8,10 @@ export default function Pricingpagecompo() {
     <div>
       <section className="pricing-section">
         <div className="pricing-container">
-          <h1 className="psh1">Our Pricing</h1>
-          <p>Pricing plans for businesses at every stage of grown</p>
+         <div className='ps-ani'>
+         <h1 className="psh1">Our Pricing</h1>
+         <p>Pricing plans for businesses at every stage of grown</p>
+         </div>
           <div className="fea-t">
             <div className="f-r">
               <span className="f-name" />
@@ -150,7 +152,7 @@ export default function Pricingpagecompo() {
             <div className="four-i accordion-item ai-pricing">
               <h2 className="accordion-header">
                 <button className="accordion-button faq-pricing-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pricingcollapseThree" aria-expanded="false" aria-controls="pricingcollapseThree">
-                can i modify or customize the templates and components to fit
+                Can I modify or customize the templates and components to fit
                 my specifuc needs?
                 </button>
               </h2>
@@ -163,7 +165,7 @@ export default function Pricingpagecompo() {
             <div className="four-i accordion-item ai-pricing">
               <h2 className="accordion-header">
                 <button className="accordion-button faq-pricing-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pricingcollapseFour" aria-expanded="false" aria-controls="pricingcollapseFour">
-                do you offer documentation to help me get started with using 
+                Do you offer documentation to help me get started with using 
                 these products?
                 </button>
               </h2>

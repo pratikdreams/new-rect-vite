@@ -105,7 +105,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-input[type="text"] {
+.ip-con {
   padding: 10px;
   margin: 10px 0;
   width: 90%;
@@ -188,4 +188,18 @@ input[type="text"] {
   .submit-button {
     width: auto;
   }
+
+  /* .c-anim {
+    background: url(../assets/contact/Group.png);
+  background-size:auto;
+
+  } */
+  .c-anim {
+    padding: 33px;
+    background-image: url(/src/assets/contact/Group.png), url(/src/assets/contact/Group.png);
+    background-position: left center, right center;
+    background-size: 50% 104%, 27% 110%;
+    background-repeat: no-repeat;
+}
+  
 }

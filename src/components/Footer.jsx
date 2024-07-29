@@ -74,7 +74,7 @@ export default function Footer() {
         <div className="copyright">
           <div className='f-cp-div'> <p>© 2023 JS Template, All Right Reserved </p> </div>
           <div className="ssl">
-           <div className='d-flex pt-lg-3'> <div><img src={Image2} className="ssl-img12" alt="" /></div><div>SSL Secure Payment &nbsp; &nbsp; &nbsp;</div> </div>
+           <div className=' pt-lg-3 ssl3'> <div><img src={Image2} className="ssl-img12" alt="" /></div><div>SSL Secure Payment &nbsp; &nbsp; &nbsp;</div> </div>
            <div> <img src={Image3} className="ssl-img2" alt="" /></div>  </div>
         </div>
       </footer>

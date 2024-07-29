@@ -6,8 +6,10 @@ export default function Contact() {
     <div>
        <section className="ccf">
         <div className="containercc">
-          <h1 className="main-heading text-light">Get In Touch</h1>
-          <p className="subtitlecc ps-md-3 pe-md-3 text-light" >We are here to help and answer any question you might have. We look forward to hearing from you.</p>
+         <div className='c-anim'>
+         <h1 className="main-heading text-light">Get In Touch</h1>
+         <p className="subtitlecc ps-md-3 pe-md-3 text-light" >We are here to help and answer any question you might have. We look forward to hearing from you.</p>
+         </div>
           <div className="contact-infocc">
             <div className="email-section text-light " data-aos="fade-right">
               <h2 className="subcc text-light">Email Us</h2>
@@ -23,7 +25,7 @@ export default function Contact() {
             <div className="form-row ">
               <div className="form-group form-group-half" >
                 <label htmlFor="name" className="form-labelcc text-light mt-1">Your Name</label>
-                <input type="text" id="name" className="form-inputcc" placeholder="Your name" />
+                <input type="text" id="name" className="form-inputcc ip-con" placeholder="Your name" />
               </div>
               <div className="form-group form-group-half">
                 <label htmlFor="email" className="form-labelcc fl-b text-light pt-2">Your Email</label>
@@ -32,7 +34,7 @@ export default function Contact() {
             </div>
             <div className="form-group form-group-full">
               <label htmlFor="product" className="form-labelcc text-light">Product Name</label>
-              <input type="text" id="product" className="form-inputcc" placeholder="Write product name" />
+              <input type="text" id="product" className="form-inputcc ip-con" placeholder="Write product name" />
             </div>
             <div className="form-group form-group-full">
               <label htmlFor="message" className="form-labelcc text-light ">Your Message</label>

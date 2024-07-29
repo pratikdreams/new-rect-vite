@@ -21,10 +21,11 @@
     padding: 20px;
     border-radius: 15px;
   }
- .fig-inp{
-  margin-top: 20px;
-  border: 1px solid white;
- }
+  .fig-inp {
+    margin-top: 20px;
+    border: 1px solid white;
+    width: 90%;
+}
  .fig-button{
   margin: 20px 20px;
   padding: 13px 13px;

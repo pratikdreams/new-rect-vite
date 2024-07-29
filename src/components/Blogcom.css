@@ -108,6 +108,8 @@
 }
 .topics a:hover{
   color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
 }
 .sidebar-list {
   list-style-type: none;

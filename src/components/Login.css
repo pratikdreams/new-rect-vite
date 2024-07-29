@@ -1,89 +1,168 @@
-
+.l-lox {
+  display: flex;
+  background-color: #040619;
+  padding: 10px;
+  border-radius: 12px;
+  width: 18vh;
+  justify-content: center;
+  margin: 0 auto;
+}
 .login-mmj {
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-} 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
 .login-container {
-    background-color: #ffffff;
-    padding: 40px;
-    border-radius: 8px;
-    width: 50vh;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  width: 50vh;
 }
-h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
+
+.wel-log {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
 }
-h2 {
-    text-align: center;
-    color: #666;
-    font-weight: normal;
-    font-size: 16px;
-    margin-bottom: 20px;
+
+.wel-h2 {
+  text-align: center;
+  color: #666;
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
-input, input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #c9cace;
-    border-radius: 4px;
-    box-sizing: border-box;
+
+.form-outline {
+  position: relative;
+  margin-bottom: 15px;
 }
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c9cace;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.form-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 0 5px;
+  background: #fff;
+  color: #666;
+  pointer-events: none;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.form-control:focus {
+  border-color: #635dff;
+}
+
+.form-control:focus ~ .form-label {
+  color: #635dff;
+  transform: translateY(-20px) scale(0.8);
+}
+
+.form-control:not(:placeholder-shown) ~ .form-label {
+  transform: translateY(-20px) scale(0.8);
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-toggle-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.password-toggle-btn img {
+  width: 20px;
+  height: 20px;
+}
+
 .forgot-password {
-    text-align: left;
-    margin-bottom: 15px;
+  text-align: left;
+  margin-bottom: 15px;
 }
+
 .forgot-password a {
-    color: #4b6bfb;
-    text-decoration: none;
-    font-size: 14px;
+  color: #4b6bfb;
+  text-decoration: none;
+  font-size: 14px;
 }
+
 .continue-btn {
-    width: 100%;
-    padding: 10px;
-    background-color: #4b6bfb;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  background-color: #4b6bfb;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
+
 .continue-btn:hover {
-transform: scale(1.05);
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .signup-link {
-    text-align: center;
-    margin-top: 15px;
-    font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
 }
+
 .signup-link a {
-    color: #4c6ef5;
-    text-decoration: none;
+  color: #4c6ef5;
+  text-decoration: none;
 }
-.or{
-    text-align: center;
-    margin: 20px 0;
-    color: #000000;
+
+.signup-link a:hover {
+  text-decoration: underline;
 }
+
+.or {
+  text-align: center;
+  margin: 20px 0;
+  color: #000000;
+}
+
 .social-login {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
+
 .social-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    border: 1px solid #c9cace;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #c9cace;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
+
 .social-btn img {
-    width: 20px;
-    margin-right: 10px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+@media (min-width:992px ) {
+  .l-lox {
+    width: 12vw;
+  } 
 }

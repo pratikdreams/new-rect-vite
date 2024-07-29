@@ -127,7 +127,7 @@
   }
 
   .section3-child4 {
-    width: 382px;
+    width: 25vw;
     height: 457px;
   }
   .section3-child5 {
@@ -135,10 +135,10 @@
   }
 
   .section3-child8 {
-    width: 382px;
+    width: 25vw;
     height: 457px;
   }
-  /* .section3-child4,
+  .section3-child4,
   .section3-child8 {
     transition: all 0.5s ease-in-out;
   }
@@ -146,7 +146,7 @@
   .section3-child4:hover,
   .section3-child8:hover {
     transform: scale(1.1, 1.1);
-  } */
+  }
 }
 @media (min-width: 993px) and (max-width: 1024px) {
   .section3-child3 {

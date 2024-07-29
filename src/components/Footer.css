@@ -90,7 +90,7 @@
   background-color: #4caf50;
   color: white;
   border: none;
-  padding: 10px 90px;
+  padding: 10px 78px;
   border-radius: 25px;
   cursor: pointer;
   margin-bottom: 15px;
@@ -122,9 +122,27 @@ width: 29px;
 height: 26px;
 }
 
+.ssl3{
+display: flex;
+justify-content: center;
+}
 
 
 @media (min-width: 768px) {
+  .fr-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  .fr-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
   .footersec {
     padding: 20px 30px;
   }

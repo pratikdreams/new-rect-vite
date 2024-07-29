@@ -64,6 +64,10 @@
     outline: none;
   }
 }
+.ctxt::placeholder{
+  color: white;
+}
+
 
 .membership-info {
   background-color: #111325;
@@ -112,7 +116,7 @@
   margin-top: 12px;
 }
 .sub-pp {
-  padding-top: 5px;
+  padding-top: 12px;
   color: green;
   font-size: 18px;
 }
@@ -157,6 +161,31 @@
     display: none;
   }
   /*  */
+  .con-btn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .free {
+    border: 1px solid #464855;
+    padding: 0 5px;
+    border-radius: 7px;
+    background-color: #242636;
+  }
+  .premium {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    
+    margin: 5px 5px 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .premium:hover{
+    background-color: white;
+    color: black;
+  }
   .cont-sec {
     width: 480px;
   }
@@ -251,13 +280,13 @@
   }
 
   .se-bar input {
-    width: 284px;
-    background-color: #1e293b;
+    width: 15vw;
+    /* background-color: #1e293b; */
     border: none;
-    padding: 16.4px;
+    padding: 11.4px;
     border-radius: 5px 0 0 5px;
     color: white;
-  }
+}
 
   .sebtn {
     /* background-color: #1e293b; */
@@ -356,9 +385,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 220px;
+    width: 15vw;
   }
-  .component-grid1 {
+  .component-grid11 {
     display: flex;
     gap: 40px;
     justify-content: center;

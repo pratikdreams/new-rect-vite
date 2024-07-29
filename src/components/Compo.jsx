@@ -13,6 +13,8 @@ import Image9 from "../assets/compo/Group 270.png"
 export default function Compo() {
   return (
      <div>
+    <section className='csc'>
+
     <div className="container-p">
       <div className="header-pr">
         <div className="icon"><img src={Image9} alt="" /></div>
@@ -237,10 +239,14 @@ export default function Compo() {
               <img src={Image6} alt="" />
             </button>
           </div>
-          <div className="toggle-buttons">
+          {/* <div className="toggle-buttons">
             <button className="free">Free</button>
             <button className="premium">Premium</button>
-          </div>
+          </div> */}
+          <div className="con-btn">
+          <button className="free text-light ps-lg-3">Free
+            <button className="premium">Premium</button></button>
+        </div>
         </div>
         <div className="mid-div">
           <div>
@@ -253,20 +259,24 @@ export default function Compo() {
           </div>
         </div>
         <hr className="hrhr" />
-        <div className="component-grid1" data-aos="zoom-in">
+        <div className="component-grid11">
           <div className="card-com">
             <div className="content-box1"><img src={Image7} className='cbimg' alt="" /></div>             
           </div>
-          <div className="component-grid1">
+          <div className="component-grid11">
             <div className="card-com">
               <div className="content-box1"><img src={Image7} className='cbimg' alt="" /></div>             
             </div>
-            <div className="component-grid1">
+            <div className="component-grid11">
               <div className="card-com">
                 <div className="content-box1"><img src={Image7} className='cbimg' alt="" /></div>             
               </div>
             </div>
-          </div></div></section>
+          </div>
+          </div>
+          </section>
+    </section>
+
     </section>
   </div>
 

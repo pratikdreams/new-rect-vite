@@ -133,6 +133,11 @@ export default function Nav() {
                 Contact Us
               </NavLink>
             </li>
+            {/* <li>
+              <NavLink to="/si" className="nav-link">
+                Si
+              </NavLink>
+            </li> */}
           </ul>
           <NavLink to="/l">
             <button className="sbtn">
