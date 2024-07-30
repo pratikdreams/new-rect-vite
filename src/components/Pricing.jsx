@@ -15,10 +15,10 @@ export default function Pricing() {
             <p className="mainp">Good for a personal or client web/mobile app.</p>
             <hr className="phr" />
             <ul>
-              <li className='text-light'>All Figma Templates</li>
-              <li className="uli"><span className="uli-span">All HTML Templates</span></li>
-              <li className="uli"><span className="uli-span">ALL Nextjs Templates</span></li>
-              <li className="uli"><span className="uli-span">All Headless CMS Templates</span></li>
+              <li className='text-light'>One Figma Templates</li>
+              <li className="uli"><span className="uli-span">One HTML Templates</span></li>
+              <li className="uli"><span className="uli-span">One Nextjs Templates</span></li>
+              <li className="uli"><span className="uli-span">One Headless CMS Templates</span></li>
             </ul>
             <hr className="phr" />
             <button className="sub">Subscribe → </button> 
@@ -27,13 +27,13 @@ export default function Pricing() {
           <div className="card" data-aos="flip-left">
             <h2 className='text-light'>STARTUP</h2>
             <div className="rs">$89 <span>/year</span></div>
-            <p className="mainp">build your startup or client web/mobile app.</p>
+            <p className="mainp">Build your startup or client web/mobile app.</p>
             <hr className="phr" />
             <ul>
-              <li className="lia">All Figma Templates</li>
-              <li className="lia">All HTML Templates</li>
-              <li className="lia">All Nextjs Templates</li>
-              <li className="lia">All Headless CMS Templates</li>
+              <li className="lia">Three Figma Templates</li>
+              <li className="lia">Three HTML Templates</li>
+              <li className="lia">Three Nextjs Templates</li>
+              <li className="lia">Three Headless CMS Templates</li>
             </ul>
             <hr className="phr" />
             <button className="sub">Subscribe → </button> 
@@ -45,10 +45,10 @@ export default function Pricing() {
             <p className="mainp">Perfect for web/mobile apps or SaaS projects.</p>
             <hr className="phr" />
             <ul>
-              <li className="lia">All Figma Templates</li>
-              <li className="lia">All HTML Templates</li>
-              <li className="lia">All Nextjs Templates</li>
-              <li className="lia">All Headless CMS Templates</li>
+              <li className="lia">Seven Figma Templates</li>
+              <li className="lia">Seven HTML Templates</li>
+              <li className="lia">Seven Nextjs Templates</li>
+              <li className="lia">Seven Headless CMS Templates</li>
             </ul>
             <hr className="phr" />
             <button className="sub">Subscribe → </button> 

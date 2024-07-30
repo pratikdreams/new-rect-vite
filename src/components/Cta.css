@@ -39,15 +39,17 @@
   border-radius: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   color: white;
-  font-size: 13px;
-  width: 40vh;
+  font-size: 15px;
+  width: 94vw;
+  max-width: 300px;
   padding: 7px 13px;
   margin: 0 auto;
 }
 
 .bt {
-  background-color: #334155;
+  background-color: #1e1f30;
   border: none;
   border-radius: 50%;
   width: 40px;
@@ -58,6 +60,16 @@
   padding-top: 4px;
   margin-left: 8px;
 }
+/* .bt {
+  background-color: #1e1f30;
+  border-radius: 50%;
+  width: 59px;
+  height: 39px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+} */
 
 .ctaimgl {
   width: 23px;
@@ -135,8 +147,8 @@
   .cc {
     font-size: 16px;
     padding: 12px 12px 12px 25px;
-    /* max-width: 350px; */
-    width: 50vh;
+    max-width: 350px;
+    /* width: 50vw; */
   }
 
   .pc {

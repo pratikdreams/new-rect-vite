@@ -90,6 +90,11 @@
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  }
+ .effect-form5:hover{
+  transform: translateY(-20px);
+  background-color: black;
+ 
+} 
 
  @media (min-width: 768px) {
   .effect-form5:hover{
@@ -103,6 +108,11 @@
   } 
  }
  @media (min-width: 992px) {
+  .effect-form5:hover{
+    transform: translateY(-20px);
+    background-color: black;
+   
+  } 
     .card-parent{
         display: flex;
         flex-wrap: wrap;

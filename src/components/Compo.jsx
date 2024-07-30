@@ -9,6 +9,23 @@ import Image6 from "../assets/compo/Group 108.png"
 import Image7 from "../assets/compo/Group 277.png"
 import Image8 from "../assets/compo/Group 273.png"
 import Image9 from "../assets/compo/Group 270.png"
+import Image10 from "../assets/compo/Group 280 (1).png"
+import Image11 from "../assets/compo/Group 290.png"
+import Image12 from "../assets/compo/Group 300.png"
+import Image13 from "../assets/compo/Group 309.png"
+import Image14 from "../assets/compo/Group 316.png"
+import Image15 from "../assets/compo/Group 319.png"
+import Image16 from "../assets/compo/Group 320.png"
+import Image17 from "../assets/compo/Group 295.png"
+import Image18 from "../assets/compo/Rectangle 160 (1).png"
+
+
+
+
+
+
+
+
 
 export default function Compo() {
   return (
@@ -26,7 +43,18 @@ export default function Compo() {
           <p className="free text-light">Free
             <button className="premium">Premium</button></p>
         </div>
-        <input type="text" placeholder="Search" />
+        <div>
+        <input type="text" placeholder="Search" className='comm-inp' />
+        <button className="seb-tnn">
+              <img src={Image6} alt="" />
+            </button>
+        </div>
+        {/* <div className="se-bar">
+            <input type="text" className='ctxt' placeholder="Search..." />
+            <button className="sebtn">
+              <img src={Image6} alt="" />
+            </button>
+          </div> */}
         <div className="membership-info text-light">
           <p>Save 20% on our entire catalogue with a membership</p>
           <button className="get-access">Get All Access →</button>
@@ -44,16 +72,7 @@ export default function Compo() {
           </div>
         </div>
         <div className="card-com" >
-          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
-          <div className="menu-text text-light">Alert</div>
-          <div><img src={Image8} className='mtimg'alt="" /></div>
-          <div className="icons-p">
-            <p className="sub-pp">0</p>
-            <img src={Image} className="sunflo" alt="" />
-          </div>
-        </div>
-        <div className="card-com" >
-          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="content-box"><img src={Image10} className='cbimg1' alt="" /></div>
           <div className="menu-text text-light">Badges</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
@@ -62,7 +81,16 @@ export default function Compo() {
           </div>
         </div>
         <div className="card-com" >
-          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="content-box"><img src={Image11} className='cbimg2' alt="" /></div>
+          <div className="menu-text text-light">Badges</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
+          <div className="icons-p">
+            <p className="sub-pp">0</p>
+            <img src={Image} className="sunflo" alt="" />
+          </div>
+        </div>
+        <div className="card-com" >
+          <div className="content-box"><img src={Image12} className='cbimg3' alt="" /></div>
           <div className="menu-text text-light">Breadcrumbs</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
@@ -80,7 +108,7 @@ export default function Compo() {
           </div>
         </div>
         <div className="card-com" >
-          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="content-box"><img src={Image12} className='cbimg3' alt="" /></div>
           <div className="menu-text text-light">Input Groups</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
@@ -89,7 +117,7 @@ export default function Compo() {
           </div>
         </div>
         <div className="card-com" >
-          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="content-box"><img src={Image13} className='cbimg4' alt="" /></div>
           <div className="menu-text text-light">Textarea</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
@@ -98,7 +126,7 @@ export default function Compo() {
           </div>
         </div>
         <div className="card-com" >
-          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="content-box"><img src={Image14} className='cbimg5' alt="" /></div>
           <div className="menu-text text-light">Input</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
@@ -107,7 +135,7 @@ export default function Compo() {
           </div>
         </div>
         <div className="card-com" >
-          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="content-box"><img src={Image12} className='cbimg3' alt="" /></div>
           <div className="menu-text text-light">Toggle</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
@@ -116,7 +144,7 @@ export default function Compo() {
           </div>
         </div>
         <div className="card-com" >
-          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="content-box"><img src={Image15} className='cbimg6' alt="" /></div>
           <div className="menu-text text-light">Dropdown</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
@@ -125,8 +153,26 @@ export default function Compo() {
           </div>
         </div>
         <div className="card-com" >
-          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="content-box"><img src={Image10} className='cbimg1' alt="" /></div>
           <div className="menu-text text-light">Menu</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
+          <div className="icons-p">
+            <p className="sub-pp">0</p>
+            <img src={Image} className="sunflo" alt="" />
+          </div>
+        </div>
+        <div className="card-com">
+          <div className="content-box"><img src={Image11} className='cbimg2' alt="" /></div>
+          <div className="menu-text text-light">Menu</div>
+          <div><img src={Image8} className='mtimg'alt="" /></div>
+          <div className="icons-p">
+            <p className="sub-pp">0</p>
+            <img src={Image} className="sunflo" alt="" />
+          </div>
+        </div>
+        <div className="card-com">
+          <div className="content-box"><img src={Image12} className='cbimg3' alt="" /></div>
+          <div className="menu-text text-light">Badges</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
             <p className="sub-pp">0</p>
@@ -143,25 +189,7 @@ export default function Compo() {
           </div>
         </div>
         <div className="card-com">
-          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
-          <div className="menu-text text-light">Menu</div>
-          <div><img src={Image8} className='mtimg'alt="" /></div>
-          <div className="icons-p">
-            <p className="sub-pp">0</p>
-            <img src={Image} className="sunflo" alt="" />
-          </div>
-        </div>
-        <div className="card-com">
-          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
-          <div className="menu-text text-light">Menu</div>
-          <div><img src={Image8} className='mtimg'alt="" /></div>
-          <div className="icons-p">
-            <p className="sub-pp">0</p>
-            <img src={Image} className="sunflo" alt="" />
-          </div>
-        </div>
-        <div className="card-com">
-          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="content-box"><img src={Image17} className='cbimg8' alt="" /></div>
           <div className="menu-text text-light">Toggle</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
@@ -170,7 +198,7 @@ export default function Compo() {
           </div>
         </div>
         <div className="card-com">
-          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="content-box"><img src={Image16} className='cbimg7' alt="" /></div>
           <div className="menu-text text-light">Indicator</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
@@ -179,7 +207,7 @@ export default function Compo() {
           </div>
         </div>
         <div className="card-com">
-          <div className="content-box"><img src={Image7} className='cbimg' alt="" /></div>
+          <div className="content-box"><img src={Image18} className='cbimg9' alt="" /></div>
           <div className="menu-text text-light">Menu</div>
           <div><img src={Image8} className='mtimg'alt="" /></div>
           <div className="icons-p">
@@ -244,8 +272,8 @@ export default function Compo() {
             <button className="premium">Premium</button>
           </div> */}
           <div className="con-btn">
-          <button className="free text-light ps-lg-3">Free
-            <button className="premium">Premium</button></button>
+          <div className="free text-light ps-lg-3">Free
+            <button className="premium">Premium</button></div>
         </div>
         </div>
         <div className="mid-div">

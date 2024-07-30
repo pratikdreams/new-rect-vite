@@ -2,6 +2,7 @@ import React from 'react'
 import './Pricingpagecompo.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Image1 from "../assets/compo/Group 161.png"
 
 export default function Pricingpagecompo() {
   return (
@@ -116,8 +117,8 @@ export default function Pricingpagecompo() {
         <div className="pricing-all-action" data-aos="zoom-in">
           <h2 className='text-light'>Not sure which template to buy?<br />Get all of them</h2>
           <div className="pricing-sec-child1">
-            <div className="pricing-child2">No payment required</div>
-            <div className="pricing-child2">Quick Support and Services</div>
+            <div className="pricing-child2"> <img src={Image1} className='pimg' alt="" /> No payment required</div>
+            <div className="pricing-child2"><img src={Image1} className='pimg' alt="" /> Quick Support and Services</div>
           </div>
           <button className="cu-button">Contact Us →</button>
         </div>

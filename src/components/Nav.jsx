@@ -2,7 +2,6 @@ import React from "react";
 import "./Nav.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from "../assets/nav-and-cta/Group 46.png";
-import Image1 from "../assets/nav-and-cta/Arrow 1.png";
 import TogglerImage from "../assets/nav-and-cta/Group 84.png"; // Import your custom image
 import BtnApp from "./btn";
 import { Link, NavLink } from "react-router-dom";
@@ -133,16 +132,11 @@ export default function Nav() {
                 Contact Us
               </NavLink>
             </li>
-            {/* <li>
-              <NavLink to="/si" className="nav-link">
-                Si
-              </NavLink>
-            </li> */}
+            
           </ul>
           <NavLink to="/l">
             <button className="sbtn">
               Sign in →
-               {/* <img src={Image1} className="arrow" alt="" /> */}
             </button>
           </NavLink>
         </nav>
