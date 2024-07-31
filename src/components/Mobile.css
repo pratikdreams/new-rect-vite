@@ -1,0 +1,55 @@
+.mod-acc-btn {
+  background-color: #040619;
+  color: white;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.mod-acc-btn:not(.collapsed) {
+  background-color: #040619;
+  color: white;
+  box-shadow: none;
+}
+
+.mod-acc-btn:focus {
+  background-color: #040619;
+  color: white;
+  box-shadow: none;
+}
+
+.mod-ab {
+  background-color: #040619;
+  color: whitesmoke;
+  font-size: 14px;
+  box-shadow: none;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.mod-ai {
+  background-color: #040619;
+  border: none !important;
+}
+
+.mod-acc-btn.collapsed::after,
+.mod-acc-btn:not(.collapsed)::after {
+  color: white !important;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'><path d='M2 5L8 11L14 5'/></svg>");
+}
+.acpp{
+  font-size: 12px;
+}
+
+/* Additional styles to ensure no borders are shown */
+/* .mod-ai {
+  border: none !important;
+} */
+
+/* .accordion-button {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-body {
+  border: none !important;
+} */

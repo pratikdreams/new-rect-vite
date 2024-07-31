@@ -1,5 +1,10 @@
 /* General styles */
-
+.dmc{
+  background-color: #02030e;
+}
+.nav-item{
+    margin-bottom: 10px;
+}
 .mobile-section {
   display: block;
 }

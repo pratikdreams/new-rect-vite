@@ -1,9 +1,11 @@
 import React from "react";
 import "./Nav.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Image from "../assets/nav-and-cta/Group 46.png";
 import TogglerImage from "../assets/nav-and-cta/Group 84.png"; // Import your custom image
 import BtnApp from "./btn";
+import MobileApp from "./Mobile";
 import { Link, NavLink } from "react-router-dom";
 
 export default function Nav() {
@@ -37,7 +39,7 @@ export default function Nav() {
                 </NavLink>
               </li>
 
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
                   href="#"
@@ -51,7 +53,7 @@ export default function Nav() {
                 </a>
 
                 <div
-                  className="dropdown-menu bg-dark"
+                  className="dropdown-menu dmc"
                   aria-labelledby="navbarDropdown"
                 >
                   <a className="dropdown-item" href="#">
@@ -66,7 +68,12 @@ export default function Nav() {
                   <a className="dropdown-item" href="#">
                     Node.js Templates
                   </a>
+    
                 </div>
+                
+              </li> */}
+               <li className="nav-item" >
+                <MobileApp/>
               </li>
 
               <li className="nav-item">
